@@ -1,0 +1,1299 @@
+2019-05-02 00:37:31 - Microsoft (R) F# Interactive version 10.2.3 for F# 4.5
+2019-05-02 00:37:31 - Copyright (c) Microsoft Corporation. All Rights Reserved.
+2019-05-02 00:37:31 - For help type #help;;
+2019-05-02 00:37:31 - > val it :
+2019-05-02 00:37:31 -   ResizeArray<System.Type *
+2019-05-02 00:37:31 -               (obj ->
+2019-05-02 00:37:31 -                  seq<string *
+2019-05-02 00:37:31 -                      string> *
+2019-05-02 00:37:31 -                  string)>
+2019-05-02 00:37:31 - = seq []
+2019-05-02 00:37:31 - --> Added '/Users/egabasova/Downloads' to library include path
+2019-05-02 00:37:31 - --> Referenced '/Users/egabasova/Downloads/IfSharp.Kernel.dll' (file may be locked by F# Interactive process)
+2019-05-02 00:37:31 - --> Referenced '/Users/egabasova/Downloads/NetMQ.dll' (file may be locked by F# Interactive process)
+2019-05-02 00:37:35 - Reporting 0 opened comms
+2019-05-02 00:37:38 - shutdown request
+2019-05-02 00:37:42 - Microsoft (R) F# Interactive version 10.2.3 for F# 4.5
+2019-05-02 00:37:42 - Copyright (c) Microsoft Corporation. All Rights Reserved.
+2019-05-02 00:37:42 - For help type #help;;
+2019-05-02 00:37:42 - > val it :
+2019-05-02 00:37:42 -   ResizeArray<System.Type *
+2019-05-02 00:37:42 -               (obj ->
+2019-05-02 00:37:42 -                  seq<string *
+2019-05-02 00:37:42 -                      string> *
+2019-05-02 00:37:42 -                  string)>
+2019-05-02 00:37:42 - = seq []
+2019-05-02 00:37:42 - --> Added '/Users/egabasova/Downloads' to library include path
+2019-05-02 00:37:42 - --> Referenced '/Users/egabasova/Downloads/IfSharp.Kernel.dll' (file may be locked by F# Interactive process)
+2019-05-02 00:37:42 - --> Referenced '/Users/egabasova/Downloads/NetMQ.dll' (file may be locked by F# Interactive process)
+2019-05-02 00:37:54 - #load "Paket.fsx"
+2019-05-02 00:37:54 - Paket.Version [ "FSharp.Data", "3.0"]
+2019-05-02 00:37:54 - #load "Paket.Generated.Refs.fsx"
+2019-05-02 00:38:57 - Expression evaluation failed: Unable to retrieve package versions for 'FSharp.Core'
+2019-05-02 00:38:57 - -- CLOSED --
+2019-05-02 00:38:57 -    
+2019-05-02 00:38:57 - -- OPEN ----
+2019-05-02 00:38:57 -    FSharp.Core 4.5.2 (from /Users/egabasova/Downloads/paket.dependencies)
+2019-05-02 00:38:57 - ExceptionUnable to retrieve package versions for 'FSharp.Core'
+2019-05-02 00:38:57 - -- CLOSED --
+2019-05-02 00:38:57 -    
+2019-05-02 00:38:57 - -- OPEN ----
+2019-05-02 00:38:57 -    FSharp.Core 4.5.2 (from /Users/egabasova/Downloads/paket.dependencies)
+2019-05-02 00:38:57 -   at Paket.PackageResolver+getVersionsBlock@1057-1.GenerateNext (System.Collections.Generic.IEnumerable`1[System.Tuple`2[Paket.SemVerInfo,Microsoft.FSharp.Collections.FSharpList`1[Paket.PackageSources+PackageSource]]]& next) [0x0015f] in <5b8275d9a970bee8a7450383d975825b>:0 
+2019-05-02 00:38:57 -   at Microsoft.FSharp.Core.CompilerServices.GeneratedSequenceBase`1[T].MoveNextImpl () [0x00016] in <5b5a6cc1904cf4daa7450383c16c5a5b>:0 
+2019-05-02 00:38:57 -   at Microsoft.FSharp.Core.CompilerServices.GeneratedSequenceBase`1[T].System-Collections-IEnumerator-MoveNext () [0x00000] in <5b5a6cc1904cf4daa7450383c16c5a5b>:0 
+2019-05-02 00:38:57 -   at Microsoft.FSharp.Collections.SeqModule.oneStepTo@979[T] (System.Collections.Generic.IEnumerable`1[T] source, System.Collections.Generic.List`1[T] prefix, Microsoft.FSharp.Core.FSharpRef`1[T] enumeratorR, System.Int32 i) [0x00045] in <5b5a6cc1904cf4daa7450383c16c5a5b>:0 
+2019-05-02 00:38:57 -   at Microsoft.FSharp.Collections.SeqModule.action@4251-1[T] (System.Collections.Generic.IEnumerable`1[T] source, System.Collections.Generic.List`1[T] prefix, Microsoft.FSharp.Core.FSharpRef`1[T] enumeratorR, System.Int32 i, Microsoft.FSharp.Core.Unit unitVar0) [0x0001e] in <5b5a6cc1904cf4daa7450383c16c5a5b>:0 
+2019-05-02 00:38:57 -   at Microsoft.FSharp.Collections.SeqModule+result@995[T].Invoke (System.Int32 i) [0x0000f] in <5b5a6cc1904cf4daa7450383c16c5a5b>:0 
+2019-05-02 00:38:57 -   at Microsoft.FSharp.Collections.Internal+IEnumerator+unfold@199[b,a].DoMoveNext (b& curr) [0x00000] in <5b5a6cc1904cf4daa7450383c16c5a5b>:0 
+2019-05-02 00:38:57 -   at Microsoft.FSharp.Collections.Internal+IEnumerator+MapEnumerator`1[T].System-Collections-IEnumerator-MoveNext () [0x0000b] in <5b5a6cc1904cf4daa7450383c16c5a5b>:0 
+2019-05-02 00:38:57 -   at Microsoft.FSharp.Collections.Internal+IEnumerator+map@74[b,a].DoMoveNext (b& curr) [0x00000] in <5b5a6cc1904cf4daa7450383c16c5a5b>:0 
+2019-05-02 00:38:57 -   at Microsoft.FSharp.Collections.Internal+IEnumerator+MapEnumerator`1[T].System-Collections-IEnumerator-MoveNext () [0x0000b] in <5b5a6cc1904cf4daa7450383c16c5a5b>:0 
+2019-05-02 00:38:57 -   at Microsoft.FSharp.Collections.Internal+IEnumerator.next@187[T] (Microsoft.FSharp.Core.FSharpFunc`2[T,TResult] f, System.Collections.Generic.IEnumerator`1[T] e, Microsoft.FSharp.Core.FSharpRef`1[T] started, Microsoft.FSharp.Core.Unit unitVar0) [0x00013] in <5b5a6cc1904cf4daa7450383c16c5a5b>:0 
+2019-05-02 00:38:57 -   at Microsoft.FSharp.Collections.Internal+IEnumerator+filter@182[T].System-Collections-IEnumerator-MoveNext () [0x00015] in <5b5a6cc1904cf4daa7450383c16c5a5b>:0 
+2019-05-02 00:38:57 -   at Microsoft.FSharp.Collections.SeqModule.IsEmpty[T] (System.Collections.Generic.IEnumerable`1[T] source) [0x00062] in <5b5a6cc1904cf4daa7450383c16c5a5b>:0 
+2019-05-02 00:38:57 -   at Paket.PackageResolver.getCompatibleVersions (Paket.PackageResolver+ResolverStep currentStep, Paket.Domain+GroupName groupName, Paket.Requirements+PackageRequirement currentRequirement, System.Collections.Generic.IDictionary`2[TKey,TValue] rootDependencies, Microsoft.FSharp.Core.FSharpFunc`2[T,TResult] getVersionsF, System.Boolean globalOverride, Microsoft.FSharp.Core.FSharpOption`1[T] globalStrategyForDirectDependencies, Microsoft.FSharp.Core.FSharpOption`1[T] globalStrategyForTransitives) [0x00189] in <5b8275d9a970bee8a7450383d975825b>:0 
+2019-05-02 00:38:57 -   at Paket.PackageResolver.step@1113 (Paket.PackageResolver+UpdateMode updateMode, Paket.Domain+GroupName groupName, Microsoft.FSharp.Core.FSharpOption`1[T] globalStrategyForTransitives, Microsoft.FSharp.Core.FSharpOption`1[T] globalStrategyForDirectDependencies, Paket.Requirements+FrameworkRestrictions globalFrameworkRestrictions, Microsoft.FSharp.Core.FSharpFunc`2[T,TResult] getVersionsRaw, Microsoft.FSharp.Core.FSharpFunc`2[T,TResult] getPreferredVersionsRaw, Microsoft.FSharp.Core.FSharpFunc`2[T,TResult] getPackageDetailsRaw, Microsoft.FSharp.Collections.FSharpSet`1[T] cliToolSettings, Paket.PackageResolver+ResolverRequestQueue workerQueue, System.Int32 taskTimeout, System.TimeSpan loopTimeout, System.Collections.Concurrent.ConcurrentDictionary`2[TKey,TValue] startedGetPackageDetailsRequests, Microsoft.FSharp.Core.FSharpFunc`2[T,TResult] getPackageDetailsBlock, System.Collections.Concurrent.ConcurrentDictionary`2[TKey,TValue] startedGetVersionsRequests, Microsoft.FSharp.Core.FSharpOption`1[T] packageFilter, System.Collections.Generic.IDictionary`2[TKey,TValue] rootDependenciesDict, Microsoft.FSharp.Collections.FSharpSet`1[T] lockedPackages, System.DateTime loopTime, Paket.PackageResolver+Stage stage, Paket.PackageResolver+StackPack stackpack, System.Collections.Generic.IEnumerable`1[T] compatibleVersions, Paket.PackageResolver+StepFlags flags) [0x00343] in <5b8275d9a970bee8a7450383d975825b>:0 
+2019-05-02 00:38:57 -   at Paket.PackageResolver.Resolve (Microsoft.FSharp.Core.FSharpFunc`2[T,TResult] getVersionsRaw, Microsoft.FSharp.Core.FSharpFunc`2[T,TResult] getPreferredVersionsRaw, Microsoft.FSharp.Core.FSharpFunc`2[T,TResult] getPackageDetailsRaw, Paket.Domain+GroupName groupName, Microsoft.FSharp.Core.FSharpOption`1[T] globalStrategyForDirectDependencies, Microsoft.FSharp.Core.FSharpOption`1[T] globalStrategyForTransitives, Paket.Requirements+FrameworkRestrictions globalFrameworkRestrictions, Microsoft.FSharp.Collections.FSharpSet`1[T] rootDependencies, Paket.PackageResolver+UpdateMode updateMode) [0x00443] in <5b8275d9a970bee8a7450383d975825b>:0 
+2019-05-02 00:38:57 -   at <StartupCode$Paket-Core>.$DependenciesFile+resolveGroup@222-1[b].Invoke (Paket.Domain+GroupName groupName, b _arg1) [0x000ff] in <5b8275d9a970bee8a7450383d975825b>:0 
+2019-05-02 00:38:57 -   at Microsoft.FSharp.Collections.MapTreeModule.mapiOpt[a,b,c] (Microsoft.FSharp.Core.OptimizedClosures+FSharpFunc`3[T1,T2,TResult] f, Microsoft.FSharp.Collections.MapTree`2[TKey,TValue] m) [0x00029] in <5b5a6cc1904cf4daa7450383c16c5a5b>:0 
+2019-05-02 00:38:57 -   at Microsoft.FSharp.Collections.FSharpMap`2[TKey,TValue].Map[b] (Microsoft.FSharp.Core.FSharpFunc`2[T,TResult] f) [0x00013] in <5b5a6cc1904cf4daa7450383c16c5a5b>:0 
+2019-05-02 00:38:57 -   at Microsoft.FSharp.Collections.MapModule.Map[TKey,T,TResult] (Microsoft.FSharp.Core.FSharpFunc`2[T,TResult] mapping, Microsoft.FSharp.Collections.FSharpMap`2[TKey,TValue] table) [0x00000] in <5b5a6cc1904cf4daa7450383c16c5a5b>:0 
+2019-05-02 00:38:57 -   at Paket.DependenciesFile.Resolve[a] (System.Boolean force, Microsoft.FSharp.Core.FSharpFunc`2[T,TResult] getSha1, Microsoft.FSharp.Core.FSharpFunc`2[T,TResult] getVersionF, Microsoft.FSharp.Core.FSharpFunc`2[T,TResult] getPreferredVersionF, Microsoft.FSharp.Core.FSharpFunc`2[T,TResult] getPackageDetailsF, Microsoft.FSharp.Core.FSharpFunc`2[T,TResult] getPackageRuntimeGraph, Microsoft.FSharp.Collections.FSharpMap`2[TKey,TValue] groupsToResolve, Paket.PackageResolver+UpdateMode updateMode) [0x00013] in <5b8275d9a970bee8a7450383d975825b>:0 
+2019-05-02 00:38:57 -   at Paket.UpdateProcess.selectiveUpdate (System.Boolean force, Microsoft.FSharp.Core.FSharpFunc`2[T,TResult] getSha1, Microsoft.FSharp.Core.FSharpFunc`2[T,TResult] getVersionsF, Microsoft.FSharp.Core.FSharpFunc`2[T,TResult] getPackageDetailsF, Microsoft.FSharp.Core.FSharpFunc`2[T,TResult] getRuntimeGraphFromPackage, Paket.LockFile lockFile, Paket.DependenciesFile dependenciesFile, Paket.PackageResolver+UpdateMode updateMode, Paket.SemVerUpdateMode semVerUpdateMode) [0x00330] in <5b8275d9a970bee8a7450383d975825b>:0 
+2019-05-02 00:38:57 -   at Paket.UpdateProcess.SelectiveUpdate (Paket.DependenciesFile dependenciesFile, Microsoft.FSharp.Core.FSharpOption`1[T] alternativeProjectRoot, Paket.PackageResolver+UpdateMode updateMode, Paket.SemVerUpdateMode semVerUpdateMode, System.Boolean force) [0x000e6] in <5b8275d9a970bee8a7450383d975825b>:0 
+2019-05-02 00:38:57 -   at Paket.RemoveProcess.remove (Microsoft.FSharp.Core.FSharpFunc`2[T,TResult] removeFromProjects, System.String dependenciesFileName, Microsoft.FSharp.Core.FSharpOption`1[T] alternativeProjectRoot, Paket.Domain+GroupName groupName, Paket.Domain+PackageName package, System.Boolean force, System.Boolean installAfter) [0x00097] in <5b8275d9a970bee8a7450383d975825b>:0 
+2019-05-02 00:38:57 -   at Paket.RemoveProcess.Remove (System.String dependenciesFileName, Microsoft.FSharp.Core.FSharpOption`1[T] groupName, Paket.Domain+PackageName packageName, System.Boolean force, System.Boolean interactive, System.Boolean installAfter) [0x00025] in <5b8275d9a970bee8a7450383d975825b>:0 
+2019-05-02 00:38:57 -   at <StartupCode$Paket-Core>.$PublicAPI+Remove@607-9.Invoke (Microsoft.FSharp.Core.Unit unitVar0) [0x0001d] in <5b8275d9a970bee8a7450383d975825b>:0 
+2019-05-02 00:38:57 -   at Paket.Utils.RunInLockedAccessMode[a] (System.String lockedFolder, Microsoft.FSharp.Core.FSharpFunc`2[T,TResult] action) [0x00077] in <5b8275d9a970bee8a7450383d975825b>:0 
+2019-05-02 00:38:57 -   at Paket.Dependencies.Remove (Microsoft.FSharp.Core.FSharpOption`1[T] groupName, System.String package, System.Boolean force, System.Boolean interactive, System.Boolean installAfter) [0x00023] in <5b8275d9a970bee8a7450383d975825b>:0 
+2019-05-02 00:38:57 -   at FSI_0004.Paket.add (System.String package, System.String version) [0x00005] in <7fb6758cc80b48278003cf18dd9433ac>:0 
+2019-05-02 00:38:57 -   at FSI_0004.Paket.Version (System.Collections.Generic.IEnumerable`1[T] list) [0x0003a] in <7fb6758cc80b48278003cf18dd9433ac>:0 
+2019-05-02 00:38:57 -   at <StartupCode$FSI_0005>.$FSI_0005.main@ () [0x00019] in <7fb6758cc80b48278003cf18dd9433ac>:0 
+2019-05-02 00:38:57 -   at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&)
+2019-05-02 00:38:57 -   at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <6e9b92f0d119424382ef180639777acb>:0 
+2019-05-02 00:38:57 - TaskCanceledExceptionA task was canceled.
+2019-05-02 00:38:57 -   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x00026] in <6e9b92f0d119424382ef180639777acb>:0 
+2019-05-02 00:38:57 -   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in <6e9b92f0d119424382ef180639777acb>:0 
+2019-05-02 00:38:57 -   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in <6e9b92f0d119424382ef180639777acb>:0 
+2019-05-02 00:38:57 -   at System.Runtime.CompilerServices.TaskAwaiter`1[TResult].GetResult () [0x00000] in <6e9b92f0d119424382ef180639777acb>:0 
+2019-05-02 00:38:57 -   at System.Net.Http.HttpClientHandler+<SendAsync>d__63.MoveNext () [0x00528] in <9f2e955d30524e5fbd5fb14114497b1f>:0 
+2019-05-02 00:38:57 - --- End of stack trace from previous location where exception was thrown ---
+2019-05-02 00:38:57 -   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <6e9b92f0d119424382ef180639777acb>:0 
+2019-05-02 00:38:57 -   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x0001a] in <6e9b92f0d119424382ef180639777acb>:0 
+2019-05-02 00:38:57 -   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in <6e9b92f0d119424382ef180639777acb>:0 
+2019-05-02 00:38:57 -   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in <6e9b92f0d119424382ef180639777acb>:0 
+2019-05-02 00:38:57 -   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1+ConfiguredTaskAwaiter[TResult].GetResult () [0x00000] in <6e9b92f0d119424382ef180639777acb>:0 
+2019-05-02 00:38:57 -   at System.Net.Http.HttpClient+<SendAsyncWorker>d__47.MoveNext () [0x000ca] in <9f2e955d30524e5fbd5fb14114497b1f>:0 
+2019-05-02 00:38:57 - --- End of stack trace from previous location where exception was thrown ---
+2019-05-02 00:38:57 -   at Paket.NetUtils+_safeGetFromUrl@576-9.Invoke (System.Exception _arg5) [0x0015c] in <5b8275d9a970bee8a7450383d975825b>:0 
+2019-05-02 00:38:57 -   at <StartupCode$FSharp-Core>.$Async+TryWith@1113-1[T].Invoke (System.Exception exn) [0x00000] in <5b5a6cc1904cf4daa7450383c16c5a5b>:0 
+2019-05-02 00:38:57 -   at <StartupCode$FSharp-Core>.$Async+TryWith@1113-3[T].Invoke (System.Exception edi) [0x00000] in <5b5a6cc1904cf4daa7450383c16c5a5b>:0 
+2019-05-02 00:38:57 -   at Microsoft.FSharp.Control.AsyncPrimitives.CallFilterThenInvoke[T] (Microsoft.FSharp.Control.AsyncActivation`1[T] ctxt, Microsoft.FSharp.Core.FSharpFunc`2[T,TResult] catchFilter, System.Runtime.ExceptionServices.ExceptionDispatchInfo edi) [0x0000c] in <5b5a6cc1904cf4daa7450383c16c5a5b>:0 
+2019-05-02 00:38:57 -   at Microsoft.FSharp.Control.AsyncPrimitives+TryWith@526[T].Invoke (System.Runtime.ExceptionServices.ExceptionDispatchInfo edi) [0x0002a] in <5b5a6cc1904cf4daa7450383c16c5a5b>:0 
+2019-05-02 00:38:57 -   at Microsoft.FSharp.Control.AsyncPrimitives+econt@510-1[T].Invoke (Microsoft.FSharp.Core.Unit unitVar0) [0x00007] in <5b5a6cc1904cf4daa7450383c16c5a5b>:0 
+2019-05-02 00:38:57 -   at Microsoft.FSharp.Control.AsyncPrimitives.CallThenContinue[a,b] (Microsoft.FSharp.Core.FSharpFunc`2[T,TResult] userCode, a arg, Microsoft.FSharp.Control.AsyncActivation`1[T] ctxt) [0x000aa] in <5b5a6cc1904cf4daa7450383c16c5a5b>:0 
+2019-05-02 00:38:57 -   at Microsoft.FSharp.Control.AsyncPrimitives+econt@510[T].Invoke (System.Runtime.ExceptionServices.ExceptionDispatchInfo exn) [0x00031] in <5b5a6cc1904cf4daa7450383c16c5a5b>:0 
+2019-05-02 00:38:57 -   at Microsoft.FSharp.Control.AsyncPrimitives+econt@510-1[T].Invoke (Microsoft.FSharp.Core.Unit unitVar0) [0x00007] in <5b5a6cc1904cf4daa7450383c16c5a5b>:0 
+2019-05-02 00:38:57 -   at Microsoft.FSharp.Control.AsyncPrimitives.CallThenContinue[a,b] (Microsoft.FSharp.Core.FSharpFunc`2[T,TResult] userCode, a arg, Microsoft.FSharp.Control.AsyncActivation`1[T] ctxt) [0x000aa] in <5b5a6cc1904cf4daa7450383c16c5a5b>:0 
+2019-05-02 00:38:57 -   at Microsoft.FSharp.Control.AsyncPrimitives+econt@510[T].Invoke (System.Runtime.ExceptionServices.ExceptionDispatchInfo exn) [0x00031] in <5b5a6cc1904cf4daa7450383c16c5a5b>:0 
+2019-05-02 00:38:57 -   at <StartupCode$FSharp-Core>.$Async+once@1145-3[a].Invoke (Microsoft.FSharp.Core.Unit unitVar0) [0x00000] in <5b5a6cc1904cf4daa7450383c16c5a5b>:0 
+2019-05-02 00:38:57 -   at Microsoft.FSharp.Control.Trampoline.Execute (Microsoft.FSharp.Core.FSharpFunc`2[T,TResult] firstAction) [0x00020] in <5b5a6cc1904cf4daa7450383c16c5a5b>:0 
+2019-05-02 00:38:57 - --- End of stack trace from previous location where exception was thrown ---
+2019-05-02 00:38:57 -   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <6e9b92f0d119424382ef180639777acb>:0 
+2019-05-02 00:38:57 -   at Paket.PackageResolver.getAndReport@994[a] (System.Int32 taskTimeout, Microsoft.FSharp.Collections.FSharpList`1[T] sources, Paket.Profile+BlockReason blockReason, Paket.PackageResolver+ResolverTaskMemory`1[a] mem) [0x0019a] in <5b8275d9a970bee8a7450383d975825b>:0 
+2019-05-02 00:38:57 -   at Paket.PackageResolver+getVersionsBlock@1057-1.GenerateNext (System.Collections.Generic.IEnumerable`1[System.Tuple`2[Paket.SemVerInfo,Microsoft.FSharp.Collections.FSharpList`1[Paket.PackageSources+PackageSource]]]& next) [0x00101] in <5b8275d9a970bee8a7450383d975825b>:0 
+2019-05-03 22:36:17 - Microsoft (R) F# Interactive version 10.2.3 for F# 4.5
+2019-05-03 22:36:17 - Copyright (c) Microsoft Corporation. All Rights Reserved.
+2019-05-03 22:36:17 - For help type #help;;
+2019-05-03 22:36:17 - > val it :
+2019-05-03 22:36:17 -   ResizeArray<System.Type *
+2019-05-03 22:36:17 -               (obj ->
+2019-05-03 22:36:17 -                  seq<string *
+2019-05-03 22:36:17 -                      string> *
+2019-05-03 22:36:17 -                  string)>
+2019-05-03 22:36:17 - = seq []
+2019-05-03 22:36:17 - --> Added '/Users/egabasova/Downloads' to library include path
+2019-05-03 22:36:17 - --> Referenced '/Users/egabasova/Downloads/IfSharp.Kernel.dll' (file may be locked by F# Interactive process)
+2019-05-03 22:36:17 - --> Referenced '/Users/egabasova/Downloads/NetMQ.dll' (file may be locked by F# Interactive process)
+2019-05-03 22:36:21 - #load "Paket.fsx"
+2019-05-03 22:36:21 - Paket.Version [ "FSharp.Data", "3.0"]
+2019-05-03 22:36:21 - #load "Paket.Generated.Refs.fsx"
+2019-05-03 22:36:27 - Reporting 0 opened comms
+2019-05-03 23:19:21 - shutdown request
+2019-05-04 13:04:27 - Microsoft (R) F# Interactive version 10.2.3 for F# 4.5
+2019-05-04 13:04:27 - Copyright (c) Microsoft Corporation. All Rights Reserved.
+2019-05-04 13:04:27 - For help type #help;;
+2019-05-04 13:04:27 - > val it :
+2019-05-04 13:04:27 -   ResizeArray<System.Type *
+2019-05-04 13:04:27 -               (obj ->
+2019-05-04 13:04:27 -                  seq<string *
+2019-05-04 13:04:27 -                      string> *
+2019-05-04 13:04:27 -                  string)>
+2019-05-04 13:04:27 - = seq []
+2019-05-04 13:04:27 - --> Added '/Users/egabasova/Downloads' to library include path
+2019-05-04 13:04:27 - --> Referenced '/Users/egabasova/Downloads/IfSharp.Kernel.dll' (file may be locked by F# Interactive process)
+2019-05-04 13:04:27 - --> Referenced '/Users/egabasova/Downloads/NetMQ.dll' (file may be locked by F# Interactive process)
+2019-05-04 13:04:30 - Reporting 0 opened comms
+2019-05-04 13:05:10 - shutdown request
+2019-05-04 14:59:01 - Microsoft (R) F# Interactive version 10.2.3 for F# 4.5
+2019-05-04 14:59:01 - Copyright (c) Microsoft Corporation. All Rights Reserved.
+2019-05-04 14:59:01 - For help type #help;;
+2019-05-04 14:59:01 - > val it :
+2019-05-04 14:59:01 -   ResizeArray<System.Type *
+2019-05-04 14:59:01 -               (obj ->
+2019-05-04 14:59:01 -                  seq<string *
+2019-05-04 14:59:01 -                      string> *
+2019-05-04 14:59:01 -                  string)>
+2019-05-04 14:59:01 - = seq []
+2019-05-04 14:59:01 - --> Added '/Users/egabasova/Downloads' to library include path
+2019-05-04 14:59:01 - --> Referenced '/Users/egabasova/Downloads/IfSharp.Kernel.dll' (file may be locked by F# Interactive process)
+2019-05-04 14:59:01 - --> Referenced '/Users/egabasova/Downloads/NetMQ.dll' (file may be locked by F# Interactive process)
+2019-05-04 14:59:04 - #load "Paket.fsx"
+2019-05-04 14:59:04 - Paket.Version [ "FSharp.Data", "3.0"]
+2019-05-04 14:59:04 - #load "Paket.Generated.Refs.fsx"
+2019-05-04 14:59:09 - Reporting 0 opened comms
+2019-05-04 16:15:21 - Reporting 0 opened comms
+2019-05-04 16:16:15 - open System.IO  
+2019-05-04 16:16:15 - open FSharp.Data
+2019-05-04 16:16:15 - open FSharp.Data.HttpRequestHeaders
+2019-05-04 16:16:15 - open FSharp.Data.HttpContentTypes
+2019-05-04 16:16:15 - #load "subscription.fs" // Load subscription key
+2019-05-04 16:16:15 - let uriBase = "https://westeurope.api.cognitive.microsoft.com/vision/v2.0/analyze"
+2019-05-04 16:16:15 - type VisionApi = 
+2019-05-04 16:16:15 -   JsonProvider<"""{"tags":[{"name":"music","confidence":0.98865640163421631},{"name":"guitar","confidence":0.95694917440414429},{"name":"building material","confidence":0.41293439269065857},{"name":"lumber","confidence":0.29446199536323547},{"name":"bass","confidence":0.26204556226730347,"hint":"object"}],"description":{"tags":["road","building","outdoor","street","night","black","city","white","light","sitting","riding","man","side","empty","rain","corner","traffic","lit","hydrant","stop","board","parked","bus","tall"],"captions":[{"text":"a close up of an empty city street at night","confidence":0.7965622853462756}]},"requestId":"ad111816-5803-4176-a3a0-0aa59b517db6","metadata":{"width":604,"height":271,"format":"Jpeg"}}""">
+2019-05-04 16:16:48 - let getPictureDescription imageFilePath = 
+2019-05-04 16:16:48 -     let bytes = File.ReadAllBytes imageFilePath
+2019-05-04 16:16:48 -     let requestParameters = "visualFeatures=Tags,Description"
+2019-05-04 16:16:48 -     let res = 
+2019-05-04 16:16:48 -         Http.RequestString(uriBase + "?" + requestParameters, 
+2019-05-04 16:16:48 -                            headers = [ "Ocp-Apim-Subscription-Key", Subscription.subscriptionKey
+2019-05-04 16:16:48 -                                        ContentType Binary ],
+2019-05-04 16:16:48 -                            body = HttpRequestBody.BinaryUpload bytes)
+2019-05-04 16:16:48 -     let jsonObject = VisionApi.Parse res
+2019-05-04 16:16:48 -     
+2019-05-04 16:16:48 -     let description = jsonObject.Description.Captions.[0].Text
+2019-05-04 16:16:48 -     let tags = jsonObject.Tags |> Array.map (fun t -> t.Name, t.Confidence)
+2019-05-04 16:16:48 -     
+2019-05-04 16:16:48 -     printfn "%s\n------------------------------" description
+2019-05-04 16:16:48 -     tags |> Array.iter (fun (name, p) -> printfn "%s: %.3f" name p)
+2019-05-04 16:16:56 - getPictureDescription "img/guitar.jpg"
+2019-05-04 16:17:41 - getPictureDescription "img/monkey1.jpeg"
+2019-05-04 16:18:16 - getPictureDescription "img/monkey2.jpeg"
+2019-05-04 16:18:53 - getPictureDescription "img/smeal.png"
+2019-05-04 16:19:55 - getPictureDescription "img/gmonkey2.jpeg"
+2019-05-04 16:20:31 - getPictureDescription "img/gmonkey1.jpeg" 
+2019-05-04 16:21:22 - getPictureDescription "img/ggmonkey2.jpeg"
+2019-05-04 20:49:05 - shutdown request
+2019-05-21 13:00:31 - Microsoft (R) F# Interactive version 10.2.3 for F# 4.5
+2019-05-21 13:00:31 - Copyright (c) Microsoft Corporation. All Rights Reserved.
+2019-05-21 13:00:31 - For help type #help;;
+2019-05-21 13:00:31 - > val it :
+2019-05-21 13:00:31 -   ResizeArray<System.Type *
+2019-05-21 13:00:31 -               (obj ->
+2019-05-21 13:00:31 -                  seq<string *
+2019-05-21 13:00:31 -                      string> *
+2019-05-21 13:00:31 -                  string)>
+2019-05-21 13:00:31 - = seq []
+2019-05-21 13:00:31 - --> Added '/Users/egabasova/Downloads' to library include path
+2019-05-21 13:00:31 - --> Referenced '/Users/egabasova/Downloads/IfSharp.Kernel.dll' (file may be locked by F# Interactive process)
+2019-05-21 13:00:31 - --> Referenced '/Users/egabasova/Downloads/NetMQ.dll' (file may be locked by F# Interactive process)
+2019-05-21 13:00:33 - Reporting 0 opened comms
+2019-05-21 13:00:33 - open System.IO  
+2019-05-21 13:00:33 - open FSharp.Data
+2019-05-21 13:00:33 - open FSharp.Data.HttpRequestHeaders
+2019-05-21 13:00:33 - open FSharp.Data.HttpContentTypes
+2019-05-21 13:00:33 - #load "subscription.fs" // Load subscription key
+2019-05-21 13:00:33 - let uriBase = "https://westeurope.api.cognitive.microsoft.com/vision/v2.0/analyze"
+2019-05-21 13:00:33 - type VisionApi = 
+2019-05-21 13:00:33 -   JsonProvider<"""{"tags":[{"name":"music","confidence":0.98865640163421631},{"name":"guitar","confidence":0.95694917440414429},{"name":"building material","confidence":0.41293439269065857},{"name":"lumber","confidence":0.29446199536323547},{"name":"bass","confidence":0.26204556226730347,"hint":"object"}],"description":{"tags":["road","building","outdoor","street","night","black","city","white","light","sitting","riding","man","side","empty","rain","corner","traffic","lit","hydrant","stop","board","parked","bus","tall"],"captions":[{"text":"a close up of an empty city street at night","confidence":0.7965622853462756}]},"requestId":"ad111816-5803-4176-a3a0-0aa59b517db6","metadata":{"width":604,"height":271,"format":"Jpeg"}}""">
+2019-05-21 13:00:33 - The namespace 'HttpRequestHeaders' is not defined.
+2019-05-21 13:00:33 - The namespace 'HttpContentTypes' is not defined.
+2019-05-21 13:00:48 - #load "Paket.fsx"
+2019-05-21 13:00:48 - Paket.Version [ "FSharp.Data", "3.0"]
+2019-05-21 13:00:48 - #load "Paket.Generated.Refs.fsx"
+2019-05-21 13:00:56 - open System.IO  
+2019-05-21 13:00:56 - open FSharp.Data
+2019-05-21 13:00:56 - open FSharp.Data.HttpRequestHeaders
+2019-05-21 13:00:56 - open FSharp.Data.HttpContentTypes
+2019-05-21 13:00:56 - #load "subscription.fs" // Load subscription key
+2019-05-21 13:00:56 - let uriBase = "https://westeurope.api.cognitive.microsoft.com/vision/v2.0/analyze"
+2019-05-21 13:00:56 - type VisionApi = 
+2019-05-21 13:00:56 -   JsonProvider<"""{"tags":[{"name":"music","confidence":0.98865640163421631},{"name":"guitar","confidence":0.95694917440414429},{"name":"building material","confidence":0.41293439269065857},{"name":"lumber","confidence":0.29446199536323547},{"name":"bass","confidence":0.26204556226730347,"hint":"object"}],"description":{"tags":["road","building","outdoor","street","night","black","city","white","light","sitting","riding","man","side","empty","rain","corner","traffic","lit","hydrant","stop","board","parked","bus","tall"],"captions":[{"text":"a close up of an empty city street at night","confidence":0.7965622853462756}]},"requestId":"ad111816-5803-4176-a3a0-0aa59b517db6","metadata":{"width":604,"height":271,"format":"Jpeg"}}""">
+2019-05-21 13:01:11 - let getPictureDescription imageFilePath = 
+2019-05-21 13:01:11 -     let bytes = File.ReadAllBytes imageFilePath
+2019-05-21 13:01:11 -     let requestParameters = "visualFeatures=Tags,Description"
+2019-05-21 13:01:11 -     let res = 
+2019-05-21 13:01:11 -         Http.RequestString(uriBase + "?" + requestParameters, 
+2019-05-21 13:01:11 -                            headers = [ "Ocp-Apim-Subscription-Key", Subscription.subscriptionKey
+2019-05-21 13:01:11 -                                        ContentType Binary ],
+2019-05-21 13:01:11 -                            body = HttpRequestBody.BinaryUpload bytes)
+2019-05-21 13:01:11 -     let jsonObject = VisionApi.Parse res
+2019-05-21 13:01:11 -     
+2019-05-21 13:01:11 -     let description = jsonObject.Description.Captions.[0].Text
+2019-05-21 13:01:11 -     let tags = jsonObject.Tags |> Array.map (fun t -> t.Name, t.Confidence)
+2019-05-21 13:01:11 -     
+2019-05-21 13:01:11 -     printfn "%s\n------------------------------" description
+2019-05-21 13:01:11 -     tags |> Array.iter (fun (name, p) -> printfn "%s: %.3f" name p)
+2019-05-21 13:02:07 - shutdown request
+2019-05-21 13:02:10 - Microsoft (R) F# Interactive version 10.2.3 for F# 4.5
+2019-05-21 13:02:10 - Copyright (c) Microsoft Corporation. All Rights Reserved.
+2019-05-21 13:02:10 - For help type #help;;
+2019-05-21 13:02:10 - > val it :
+2019-05-21 13:02:10 -   ResizeArray<System.Type *
+2019-05-21 13:02:10 -               (obj ->
+2019-05-21 13:02:10 -                  seq<string *
+2019-05-21 13:02:10 -                      string> *
+2019-05-21 13:02:10 -                  string)>
+2019-05-21 13:02:10 - = seq []
+2019-05-21 13:02:10 - --> Added '/Users/egabasova/Downloads' to library include path
+2019-05-21 13:02:10 - --> Referenced '/Users/egabasova/Downloads/IfSharp.Kernel.dll' (file may be locked by F# Interactive process)
+2019-05-21 13:02:10 - --> Referenced '/Users/egabasova/Downloads/NetMQ.dll' (file may be locked by F# Interactive process)
+2019-05-21 13:02:15 - #load "Paket.fsx"
+2019-05-21 13:02:15 - Paket.Version [ "FSharp.Data", "3.0"]
+2019-05-21 13:02:15 - #load "Paket.Generated.Refs.fsx"
+2019-05-21 13:02:21 - open System.IO  
+2019-05-21 13:02:21 - open FSharp.Data
+2019-05-21 13:02:21 - open FSharp.Data.HttpRequestHeaders
+2019-05-21 13:02:21 - open FSharp.Data.HttpContentTypes
+2019-05-21 13:02:21 - #load "subscription.fs" // Load subscription key
+2019-05-21 13:02:21 - let uriBase = "https://westeurope.api.cognitive.microsoft.com/vision/v2.0/analyze"
+2019-05-21 13:02:21 - type VisionApi = 
+2019-05-21 13:02:21 -   JsonProvider<"""{"tags":[{"name":"music","confidence":0.98865640163421631},{"name":"guitar","confidence":0.95694917440414429},{"name":"building material","confidence":0.41293439269065857},{"name":"lumber","confidence":0.29446199536323547},{"name":"bass","confidence":0.26204556226730347,"hint":"object"}],"description":{"tags":["road","building","outdoor","street","night","black","city","white","light","sitting","riding","man","side","empty","rain","corner","traffic","lit","hydrant","stop","board","parked","bus","tall"],"captions":[{"text":"a close up of an empty city street at night","confidence":0.7965622853462756}]},"requestId":"ad111816-5803-4176-a3a0-0aa59b517db6","metadata":{"width":604,"height":271,"format":"Jpeg"}}""">
+2019-05-21 13:02:25 - let getPictureDescription imageFilePath = 
+2019-05-21 13:02:25 -     let bytes = File.ReadAllBytes imageFilePath
+2019-05-21 13:02:25 -     let requestParameters = "visualFeatures=Tags,Description"
+2019-05-21 13:02:25 -     let res = 
+2019-05-21 13:02:25 -         Http.RequestString(uriBase + "?" + requestParameters, 
+2019-05-21 13:02:25 -                            headers = [ "Ocp-Apim-Subscription-Key", Subscription.subscriptionKey
+2019-05-21 13:02:25 -                                        ContentType Binary ],
+2019-05-21 13:02:25 -                            body = HttpRequestBody.BinaryUpload bytes)
+2019-05-21 13:02:25 -     let jsonObject = VisionApi.Parse res
+2019-05-21 13:02:25 -     
+2019-05-21 13:02:25 -     let description = jsonObject.Description.Captions.[0].Text
+2019-05-21 13:02:25 -     let tags = jsonObject.Tags |> Array.map (fun t -> t.Name, t.Confidence)
+2019-05-21 13:02:25 -     
+2019-05-21 13:02:25 -     printfn "%s\n------------------------------" description
+2019-05-21 13:02:25 -     tags |> Array.iter (fun (name, p) -> printfn "%s: %.3f" name p)
+2019-05-21 13:02:32 - getPictureDescription "img/guitar.jpg"
+2019-05-21 13:03:13 - getPictureDescription "img/monkey1.jpeg"
+2019-05-21 13:03:48 - getPictureDescription "img/monkey2.jpeg"
+2019-05-21 13:04:17 - getPictureDescription "img/smeal.png"
+2019-05-21 13:05:23 - getPictureDescription "img/gmonkey2.jpeg"
+2019-05-21 13:06:17 - getPictureDescription "img/gmonkey1.jpeg" 
+2019-05-21 13:06:46 - getPictureDescription "img/ggmonkey2.jpeg"
+2019-05-22 10:36:59 - shutdown request
+2019-09-26 09:54:13 - Microsoft (R) F# Interactive version 10.2.3 for F# 4.5
+2019-09-26 09:54:13 - Copyright (c) Microsoft Corporation. All Rights Reserved.
+2019-09-26 09:54:13 - For help type #help;;
+2019-09-26 09:54:13 - > val it :
+2019-09-26 09:54:13 -   ResizeArray<System.Type *
+2019-09-26 09:54:13 -               (obj ->
+2019-09-26 09:54:13 -                  seq<string *
+2019-09-26 09:54:13 -                      string> *
+2019-09-26 09:54:13 -                  string)>
+2019-09-26 09:54:13 - = seq []
+2019-09-26 09:54:13 - --> Added '/Users/egabasova/Downloads' to library include path
+2019-09-26 09:54:13 - --> Referenced '/Users/egabasova/Downloads/IfSharp.Kernel.dll' (file may be locked by F# Interactive process)
+2019-09-26 09:54:13 - --> Referenced '/Users/egabasova/Downloads/NetMQ.dll' (file may be locked by F# Interactive process)
+2019-09-26 09:54:15 - #load "Paket.fsx"
+2019-09-26 09:54:15 - Paket.Version [ "FSharp.Data", "3.0"]
+2019-09-26 09:54:15 - #load "Paket.Generated.Refs.fsx"
+2019-09-26 09:54:23 - Reporting 0 opened comms
+2019-09-26 09:54:36 - open System.IO  
+2019-09-26 09:54:36 - open FSharp.Data
+2019-09-26 09:54:36 - open FSharp.Data.HttpRequestHeaders
+2019-09-26 09:54:36 - open FSharp.Data.HttpContentTypes
+2019-09-26 09:54:36 - #load "subscription.fs" // Load subscription key
+2019-09-26 09:54:36 - let uriBase = "https://westeurope.api.cognitive.microsoft.com/vision/v2.0/analyze"
+2019-09-26 09:54:36 - type VisionApi = 
+2019-09-26 09:54:36 -   JsonProvider<"""{"tags":[{"name":"music","confidence":0.98865640163421631},{"name":"guitar","confidence":0.95694917440414429},{"name":"building material","confidence":0.41293439269065857},{"name":"lumber","confidence":0.29446199536323547},{"name":"bass","confidence":0.26204556226730347,"hint":"object"}],"description":{"tags":["road","building","outdoor","street","night","black","city","white","light","sitting","riding","man","side","empty","rain","corner","traffic","lit","hydrant","stop","board","parked","bus","tall"],"captions":[{"text":"a close up of an empty city street at night","confidence":0.7965622853462756}]},"requestId":"ad111816-5803-4176-a3a0-0aa59b517db6","metadata":{"width":604,"height":271,"format":"Jpeg"}}""">
+2019-09-26 09:54:44 - let getPictureDescription imageFilePath = 
+2019-09-26 09:54:44 -     let bytes = File.ReadAllBytes imageFilePath
+2019-09-26 09:54:44 -     let requestParameters = "visualFeatures=Tags,Description"
+2019-09-26 09:54:44 -     let res = 
+2019-09-26 09:54:44 -         Http.RequestString(uriBase + "?" + requestParameters, 
+2019-09-26 09:54:44 -                            headers = [ "Ocp-Apim-Subscription-Key", Subscription.subscriptionKey
+2019-09-26 09:54:44 -                                        ContentType Binary ],
+2019-09-26 09:54:44 -                            body = HttpRequestBody.BinaryUpload bytes)
+2019-09-26 09:54:44 -     let jsonObject = VisionApi.Parse res
+2019-09-26 09:54:44 -     
+2019-09-26 09:54:44 -     let description = jsonObject.Description.Captions.[0].Text
+2019-09-26 09:54:44 -     let tags = jsonObject.Tags |> Array.map (fun t -> t.Name, t.Confidence)
+2019-09-26 09:54:44 -     
+2019-09-26 09:54:44 -     printfn "%s\n------------------------------" description
+2019-09-26 09:54:44 -     tags |> Array.iter (fun (name, p) -> printfn "%s: %.3f" name p)
+2019-09-26 09:55:12 - shutdown request
+2019-09-26 09:55:15 - Microsoft (R) F# Interactive version 10.2.3 for F# 4.5
+2019-09-26 09:55:15 - Copyright (c) Microsoft Corporation. All Rights Reserved.
+2019-09-26 09:55:15 - For help type #help;;
+2019-09-26 09:55:15 - > val it :
+2019-09-26 09:55:15 -   ResizeArray<System.Type *
+2019-09-26 09:55:15 -               (obj ->
+2019-09-26 09:55:15 -                  seq<string *
+2019-09-26 09:55:15 -                      string> *
+2019-09-26 09:55:15 -                  string)>
+2019-09-26 09:55:15 - = seq []
+2019-09-26 09:55:15 - --> Added '/Users/egabasova/Downloads' to library include path
+2019-09-26 09:55:15 - --> Referenced '/Users/egabasova/Downloads/IfSharp.Kernel.dll' (file may be locked by F# Interactive process)
+2019-09-26 09:55:15 - --> Referenced '/Users/egabasova/Downloads/NetMQ.dll' (file may be locked by F# Interactive process)
+2019-09-26 09:55:30 - #load "Paket.fsx"
+2019-09-26 09:55:30 - Paket.Version [ "FSharp.Data", "3.0"]
+2019-09-26 09:55:30 - #load "Paket.Generated.Refs.fsx"
+2019-09-26 09:55:46 - open System.IO  
+2019-09-26 09:55:46 - open FSharp.Data
+2019-09-26 09:55:46 - open FSharp.Data.HttpRequestHeaders
+2019-09-26 09:55:46 - open FSharp.Data.HttpContentTypes
+2019-09-26 09:55:46 - #load "subscription.fs" // Load subscription key
+2019-09-26 09:55:46 - let uriBase = "https://westeurope.api.cognitive.microsoft.com/vision/v2.0/analyze"
+2019-09-26 09:55:46 - type VisionApi = 
+2019-09-26 09:55:46 -   JsonProvider<"""{"tags":[{"name":"music","confidence":0.98865640163421631},{"name":"guitar","confidence":0.95694917440414429},{"name":"building material","confidence":0.41293439269065857},{"name":"lumber","confidence":0.29446199536323547},{"name":"bass","confidence":0.26204556226730347,"hint":"object"}],"description":{"tags":["road","building","outdoor","street","night","black","city","white","light","sitting","riding","man","side","empty","rain","corner","traffic","lit","hydrant","stop","board","parked","bus","tall"],"captions":[{"text":"a close up of an empty city street at night","confidence":0.7965622853462756}]},"requestId":"ad111816-5803-4176-a3a0-0aa59b517db6","metadata":{"width":604,"height":271,"format":"Jpeg"}}""">
+2019-09-26 09:55:49 - let getPictureDescription imageFilePath = 
+2019-09-26 09:55:49 -     let bytes = File.ReadAllBytes imageFilePath
+2019-09-26 09:55:49 -     let requestParameters = "visualFeatures=Tags,Description"
+2019-09-26 09:55:49 -     let res = 
+2019-09-26 09:55:49 -         Http.RequestString(uriBase + "?" + requestParameters, 
+2019-09-26 09:55:49 -                            headers = [ "Ocp-Apim-Subscription-Key", Subscription.subscriptionKey
+2019-09-26 09:55:49 -                                        ContentType Binary ],
+2019-09-26 09:55:49 -                            body = HttpRequestBody.BinaryUpload bytes)
+2019-09-26 09:55:49 -     let jsonObject = VisionApi.Parse res
+2019-09-26 09:55:49 -     
+2019-09-26 09:55:49 -     let description = jsonObject.Description.Captions.[0].Text
+2019-09-26 09:55:49 -     let tags = jsonObject.Tags |> Array.map (fun t -> t.Name, t.Confidence)
+2019-09-26 09:55:49 -     
+2019-09-26 09:55:49 -     printfn "%s\n------------------------------" description
+2019-09-26 09:55:49 -     tags |> Array.iter (fun (name, p) -> printfn "%s: %.3f" name p)
+2019-09-26 09:55:54 - getPictureDescription "img/guitar.jpg"
+2019-09-26 09:56:00 - getPictureDescription "img/monkey1.jpeg"
+2019-09-26 09:56:05 - getPictureDescription "img/monkey2.jpeg"
+2019-09-26 09:56:14 - getPictureDescription "img/smeal.png"
+2019-09-26 09:56:25 - getPictureDescription "img/gmonkey2.jpeg"
+2019-09-26 09:56:36 - getPictureDescription "img/gmonkey1.jpeg" 
+2019-09-26 09:56:44 - getPictureDescription "img/ggmonkey2.jpeg"
+2019-09-26 09:58:14 - getPictureDescription "img/landscape.png"
+2019-09-26 10:06:46 - getPictureDescription "img/monkey2 copy.jpeg"
+2019-09-26 10:07:16 - getPictureDescription "img/monkey2 copy.jpeg"
+2019-09-26 10:07:27 - getPictureDescription "img/monkey2 copy.jpeg"
+2019-09-26 10:07:41 - getPictureDescription "img/monkey2 copy.jpeg"
+2019-09-26 10:08:34 - getPictureDescription "img/monkey2giraffe.jpeg"
+2019-09-26 10:08:57 - ![](img/monkey2giraffe.jpeg)
+2019-09-26 10:08:57 - getPictureDescription "img/monkey2giraffe.jpeg"
+2019-09-26 10:08:57 - This expression was expected to have type
+2019-09-26 10:08:57 -     '(obj -> obj) ref'    
+2019-09-26 10:08:57 - but here has type
+2019-09-26 10:08:57 -     ''a list'    
+2019-09-26 10:08:57 - The value or constructor 'img' is not defined.
+2019-09-26 10:08:57 - The value, namespace, type or module 'monkey2giraffe' is not defined.
+2019-09-26 10:09:31 - getPictureDescription "img/monkey2giraffe.jpeg"
+2019-09-26 10:28:52 - getPictureDescription "img/landscape1.png"
+2019-09-26 10:28:52 - Expression evaluation failed: Could not find file "/Users/egabasova/OneDrive - Dual Notion/Talks/2019-09-DevConfKrakow/demos/deep-learning/img/landscape1.png"
+2019-09-26 10:28:52 - FileNotFoundExceptionCould not find file "/Users/egabasova/OneDrive - Dual Notion/Talks/2019-09-DevConfKrakow/demos/deep-learning/img/landscape1.png"
+2019-09-26 10:28:52 -   at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <6e9b92f0d119424382ef180639777acb>:0 
+2019-09-26 10:28:52 -   at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share) [0x00000] in <6e9b92f0d119424382ef180639777acb>:0 
+2019-09-26 10:28:52 -   at (wrapper remoting-invoke-with-check) System.IO.FileStream:.ctor (string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare)
+2019-09-26 10:28:52 -   at System.IO.File.OpenRead (System.String path) [0x00000] in <6e9b92f0d119424382ef180639777acb>:0 
+2019-09-26 10:28:52 -   at System.IO.File.ReadAllBytes (System.String path) [0x00000] in <6e9b92f0d119424382ef180639777acb>:0 
+2019-09-26 10:28:52 -   at FSI_0011.getPictureDescription (System.String imageFilePath) [0x00000] in <d1c339ee3e7342ce8257037fc432d0e3>:0 
+2019-09-26 10:28:52 -   at <StartupCode$FSI_0041>.$FSI_0041.main@ () [0x00000] in <d1c339ee3e7342ce8257037fc432d0e3>:0 
+2019-09-26 10:28:52 -   at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&)
+2019-09-26 10:28:52 -   at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <6e9b92f0d119424382ef180639777acb>:0 
+2019-09-26 10:29:14 - getPictureDescription "img/landscape1.png"
+2019-09-26 10:29:35 - getPictureDescription "img/landscape1.png"
+2019-09-26 10:29:53 - getPictureDescription "img/landscape2.png"
+2019-09-26 10:29:54 - Expression evaluation failed: The remote server returned an error: (400) Bad Request.
+2019-09-26 10:29:54 - Response from https://westeurope.api.cognitive.microsoft.com/vision/v2.0/analyze?visualFeatures=Tags,Description:
+2019-09-26 10:29:54 - {"code":"InvalidImageSize","requestId":"83618264-4102-4936-8376-181c08f6a6c2","message":"Input image is too large."}
+2019-09-26 10:29:54 - WebExceptionThe remote server returned an error: (400) Bad Request.
+2019-09-26 10:29:54 - Response from https://westeurope.api.cognitive.microsoft.com/vision/v2.0/analyze?visualFeatures=Tags,Description:
+2019-09-26 10:29:54 - {"code":"InvalidImageSize","requestId":"83618264-4102-4936-8376-181c08f6a6c2","message":"Input image is too large."}
+2019-09-26 10:29:54 -   at FSharp.Data.HttpHelpers+augmentWebExceptionsWithDetails@1227-3[a].Invoke (Microsoft.FSharp.Core.Unit unitVar) [0x000cc] in <5bc326044f906090a74503830426c35b>:0 
+2019-09-26 10:29:54 -   at Microsoft.FSharp.Control.AsyncPrimitives.CallThenInvoke[T,TResult] (Microsoft.FSharp.Control.AsyncActivation`1[T] ctxt, TResult result1, Microsoft.FSharp.Core.FSharpFunc`2[T,TResult] part2) [0x00005] in <5b5a6cc1904cf4daa7450383c16c5a5b>:0 
+2019-09-26 10:29:54 -   at <StartupCode$FSharp-Core>.$Async+Delay@1095[T].Invoke (Microsoft.FSharp.Control.AsyncActivation`1[T] ctxt) [0x00022] in <5b5a6cc1904cf4daa7450383c16c5a5b>:0 
+2019-09-26 10:29:54 -   at Microsoft.FSharp.Control.AsyncPrimitives.CallThenInvokeNoHijackCheck[a,b] (Microsoft.FSharp.Control.AsyncActivation`1[T] ctxt, Microsoft.FSharp.Core.FSharpFunc`2[T,TResult] userCode, b result1) [0x0002a] in <5b5a6cc1904cf4daa7450383c16c5a5b>:0 
+2019-09-26 10:29:54 -   at Microsoft.FSharp.Control.AsyncPrimitives+Bind@495-1[TResult,T].Invoke (TResult result1) [0x00000] in <5b5a6cc1904cf4daa7450383c16c5a5b>:0 
+2019-09-26 10:29:54 -   at Microsoft.FSharp.Control.AsyncActivation`1[T].OnSuccess (T result) [0x0008b] in <5b5a6cc1904cf4daa7450383c16c5a5b>:0 
+2019-09-26 10:29:54 -   at Microsoft.FSharp.Control.AsyncPrimitives+unitAsync@607.Invoke (Microsoft.FSharp.Control.AsyncActivation`1[T] ctxt) [0x00000] in <5b5a6cc1904cf4daa7450383c16c5a5b>:0 
+2019-09-26 10:29:54 -   at Microsoft.FSharp.Control.AsyncPrimitives.Invoke[T] (Microsoft.FSharp.Control.FSharpAsync`1[T] computation, Microsoft.FSharp.Control.AsyncActivation`1[T] ctxt) [0x00061] in <5b5a6cc1904cf4daa7450383c16c5a5b>:0 
+2019-09-26 10:29:54 -   at Microsoft.FSharp.Control.AsyncPrimitives.Bind[T,TResult] (Microsoft.FSharp.Control.AsyncActivation`1[T] ctxt, Microsoft.FSharp.Control.FSharpAsync`1[T] part1, Microsoft.FSharp.Core.FSharpFunc`2[T,TResult] part2) [0x00044] in <5b5a6cc1904cf4daa7450383c16c5a5b>:0 
+2019-09-26 10:29:54 -   at <StartupCode$FSharp-Core>.$Async+Combine@1109-1[T].Invoke (Microsoft.FSharp.Control.AsyncActivation`1[T] ctxt) [0x00000] in <5b5a6cc1904cf4daa7450383c16c5a5b>:0 
+2019-09-26 10:29:54 -   at Microsoft.FSharp.Control.AsyncPrimitives.Invoke[T] (Microsoft.FSharp.Control.FSharpAsync`1[T] computation, Microsoft.FSharp.Control.AsyncActivation`1[T] ctxt) [0x00061] in <5b5a6cc1904cf4daa7450383c16c5a5b>:0 
+2019-09-26 10:29:54 -   at Microsoft.FSharp.Control.AsyncPrimitives.CallFilterThenInvoke[T] (Microsoft.FSharp.Control.AsyncActivation`1[T] ctxt, Microsoft.FSharp.Core.FSharpFunc`2[T,TResult] catchFilter, System.Runtime.ExceptionServices.ExceptionDispatchInfo edi) [0x0003a] in <5b5a6cc1904cf4daa7450383c16c5a5b>:0 
+2019-09-26 10:29:54 -   at Microsoft.FSharp.Control.AsyncPrimitives+TryWith@526[T].Invoke (System.Runtime.ExceptionServices.ExceptionDispatchInfo edi) [0x0002a] in <5b5a6cc1904cf4daa7450383c16c5a5b>:0 
+2019-09-26 10:29:54 -   at <StartupCode$FSharp-Core>.$Async+Execute@128.Invoke (Microsoft.FSharp.Core.Unit unitVar0) [0x00000] in <5b5a6cc1904cf4daa7450383c16c5a5b>:0 
+2019-09-26 10:29:54 -   at Microsoft.FSharp.Control.Trampoline.Execute (Microsoft.FSharp.Core.FSharpFunc`2[T,TResult] firstAction) [0x00020] in <5b5a6cc1904cf4daa7450383c16c5a5b>:0 
+2019-09-26 10:29:54 - --- End of stack trace from previous location where exception was thrown ---
+2019-09-26 10:29:54 -   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <6e9b92f0d119424382ef180639777acb>:0 
+2019-09-26 10:29:54 -   at Microsoft.FSharp.Control.AsyncResult`1[T].Commit () [0x0002c] in <5b5a6cc1904cf4daa7450383c16c5a5b>:0 
+2019-09-26 10:29:54 -   at Microsoft.FSharp.Control.AsyncPrimitives.RunSynchronouslyInCurrentThread[a] (System.Threading.CancellationToken cancellationToken, Microsoft.FSharp.Control.FSharpAsync`1[T] computation) [0x00028] in <5b5a6cc1904cf4daa7450383c16c5a5b>:0 
+2019-09-26 10:29:54 -   at Microsoft.FSharp.Control.AsyncPrimitives.RunSynchronously[T] (System.Threading.CancellationToken cancellationToken, Microsoft.FSharp.Control.FSharpAsync`1[T] computation, Microsoft.FSharp.Core.FSharpOption`1[T] timeout) [0x00013] in <5b5a6cc1904cf4daa7450383c16c5a5b>:0 
+2019-09-26 10:29:54 -   at Microsoft.FSharp.Control.FSharpAsync.RunSynchronously[T] (Microsoft.FSharp.Control.FSharpAsync`1[T] computation, Microsoft.FSharp.Core.FSharpOption`1[T] timeout, Microsoft.FSharp.Core.FSharpOption`1[T] cancellationToken) [0x0006e] in <5b5a6cc1904cf4daa7450383c16c5a5b>:0 
+2019-09-26 10:29:54 -   at FSharp.Data.Http.RequestString (System.String url, Microsoft.FSharp.Core.FSharpOption`1[T] query, Microsoft.FSharp.Core.FSharpOption`1[T] headers, Microsoft.FSharp.Core.FSharpOption`1[T] httpMethod, Microsoft.FSharp.Core.FSharpOption`1[T] body, Microsoft.FSharp.Core.FSharpOption`1[T] cookies, Microsoft.FSharp.Core.FSharpOption`1[T] cookieContainer, Microsoft.FSharp.Core.FSharpOption`1[T] silentHttpErrors, Microsoft.FSharp.Core.FSharpOption`1[T] silentCookieErrors, Microsoft.FSharp.Core.FSharpOption`1[T] responseEncodingOverride, Microsoft.FSharp.Core.FSharpOption`1[T] customizeHttpRequest, Microsoft.FSharp.Core.FSharpOption`1[T] timeout) [0x0001a] in <5bc326044f906090a74503830426c35b>:0 
+2019-09-26 10:29:54 -   at FSI_0011.getPictureDescription (System.String imageFilePath) [0x00068] in <d1c339ee3e7342ce8257037fc432d0e3>:0 
+2019-09-26 10:29:54 -   at <StartupCode$FSI_0046>.$FSI_0046.main@ () [0x00000] in <d1c339ee3e7342ce8257037fc432d0e3>:0 
+2019-09-26 10:29:54 -   at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&)
+2019-09-26 10:29:54 -   at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <6e9b92f0d119424382ef180639777acb>:0 
+2019-09-26 10:29:54 - WebExceptionThe remote server returned an error: (400) Bad Request.
+2019-09-26 10:29:54 -   at System.Net.HttpWebRequest.EndGetResponse (System.IAsyncResult asyncResult) [0x00058] in <ff7a04492e6542e89795ad0b4ef278b5>:0 
+2019-09-26 10:29:54 -   at FSharp.Data.HttpHelpers+getResponseFromBeginEnd@1311-1.Invoke (System.IAsyncResult arg00) [0x00000] in <5bc326044f906090a74503830426c35b>:0 
+2019-09-26 10:29:54 -   at <StartupCode$FSharp-Core>.$Async+callback@1523[T].Invoke (System.IAsyncResult iar) [0x00037] in <5b5a6cc1904cf4daa7450383c16c5a5b>:0 
+2019-09-26 10:29:54 - --- End of stack trace from previous location where exception was thrown ---
+2019-09-26 10:29:54 -   at FSharp.Data.HttpHelpers+getResponseAsync@1319-4.Invoke (System.Exception _arg2) [0x00042] in <5bc326044f906090a74503830426c35b>:0 
+2019-09-26 10:29:54 -   at <StartupCode$FSharp-Core>.$Async+TryWith@1113-1[T].Invoke (System.Exception exn) [0x00000] in <5b5a6cc1904cf4daa7450383c16c5a5b>:0 
+2019-09-26 10:29:54 -   at <StartupCode$FSharp-Core>.$Async+TryWith@1113-3[T].Invoke (System.Exception edi) [0x00000] in <5b5a6cc1904cf4daa7450383c16c5a5b>:0 
+2019-09-26 10:29:54 -   at Microsoft.FSharp.Control.AsyncPrimitives.CallFilterThenInvoke[T] (Microsoft.FSharp.Control.AsyncActivation`1[T] ctxt, Microsoft.FSharp.Core.FSharpFunc`2[T,TResult] catchFilter, System.Runtime.ExceptionServices.ExceptionDispatchInfo edi) [0x0000c] in <5b5a6cc1904cf4daa7450383c16c5a5b>:0 
+2019-09-26 10:29:54 -   at Microsoft.FSharp.Control.AsyncPrimitives+TryWith@526[T].Invoke (System.Runtime.ExceptionServices.ExceptionDispatchInfo edi) [0x0002a] in <5b5a6cc1904cf4daa7450383c16c5a5b>:0 
+2019-09-26 10:29:54 -   at Microsoft.FSharp.Control.AsyncPrimitives+econt@510-1[T].Invoke (Microsoft.FSharp.Core.Unit unitVar0) [0x00007] in <5b5a6cc1904cf4daa7450383c16c5a5b>:0 
+2019-09-26 10:29:54 -   at Microsoft.FSharp.Control.AsyncPrimitives.CallThenContinue[a,b] (Microsoft.FSharp.Core.FSharpFunc`2[T,TResult] userCode, a arg, Microsoft.FSharp.Control.AsyncActivation`1[T] ctxt) [0x000aa] in <5b5a6cc1904cf4daa7450383c16c5a5b>:0 
+2019-09-26 10:29:54 -   at Microsoft.FSharp.Control.AsyncPrimitives+econt@510[T].Invoke (System.Runtime.ExceptionServices.ExceptionDispatchInfo exn) [0x00031] in <5b5a6cc1904cf4daa7450383c16c5a5b>:0 
+2019-09-26 10:29:54 -   at <StartupCode$FSharp-Core>.$Async+Execute@128.Invoke (Microsoft.FSharp.Core.Unit unitVar0) [0x00000] in <5b5a6cc1904cf4daa7450383c16c5a5b>:0 
+2019-09-26 10:29:54 -   at Microsoft.FSharp.Control.Trampoline.Execute (Microsoft.FSharp.Core.FSharpFunc`2[T,TResult] firstAction) [0x00020] in <5b5a6cc1904cf4daa7450383c16c5a5b>:0 
+2019-09-26 10:30:40 - getPictureDescription "img/landscape2.png"
+2019-09-26 10:30:45 - Expression evaluation failed: The remote server returned an error: (400) Bad Request.
+2019-09-26 10:30:45 - Response from https://westeurope.api.cognitive.microsoft.com/vision/v2.0/analyze?visualFeatures=Tags,Description:
+2019-09-26 10:30:45 - {"code":"InvalidImageSize","requestId":"10460e32-6e67-48c5-a925-216e0822982b","message":"Input image is too large."}
+2019-09-26 10:30:45 - WebExceptionThe remote server returned an error: (400) Bad Request.
+2019-09-26 10:30:45 - Response from https://westeurope.api.cognitive.microsoft.com/vision/v2.0/analyze?visualFeatures=Tags,Description:
+2019-09-26 10:30:45 - {"code":"InvalidImageSize","requestId":"10460e32-6e67-48c5-a925-216e0822982b","message":"Input image is too large."}
+2019-09-26 10:30:45 -   at FSharp.Data.HttpHelpers+augmentWebExceptionsWithDetails@1227-3[a].Invoke (Microsoft.FSharp.Core.Unit unitVar) [0x000cc] in <5bc326044f906090a74503830426c35b>:0 
+2019-09-26 10:30:45 -   at Microsoft.FSharp.Control.AsyncPrimitives.CallThenInvoke[T,TResult] (Microsoft.FSharp.Control.AsyncActivation`1[T] ctxt, TResult result1, Microsoft.FSharp.Core.FSharpFunc`2[T,TResult] part2) [0x00005] in <5b5a6cc1904cf4daa7450383c16c5a5b>:0 
+2019-09-26 10:30:45 -   at <StartupCode$FSharp-Core>.$Async+Delay@1095[T].Invoke (Microsoft.FSharp.Control.AsyncActivation`1[T] ctxt) [0x00022] in <5b5a6cc1904cf4daa7450383c16c5a5b>:0 
+2019-09-26 10:30:45 -   at Microsoft.FSharp.Control.AsyncPrimitives.CallThenInvokeNoHijackCheck[a,b] (Microsoft.FSharp.Control.AsyncActivation`1[T] ctxt, Microsoft.FSharp.Core.FSharpFunc`2[T,TResult] userCode, b result1) [0x0002a] in <5b5a6cc1904cf4daa7450383c16c5a5b>:0 
+2019-09-26 10:30:45 -   at Microsoft.FSharp.Control.AsyncPrimitives+Bind@495-1[TResult,T].Invoke (TResult result1) [0x00000] in <5b5a6cc1904cf4daa7450383c16c5a5b>:0 
+2019-09-26 10:30:45 -   at Microsoft.FSharp.Control.AsyncActivation`1[T].OnSuccess (T result) [0x0008b] in <5b5a6cc1904cf4daa7450383c16c5a5b>:0 
+2019-09-26 10:30:45 -   at Microsoft.FSharp.Control.AsyncPrimitives+unitAsync@607.Invoke (Microsoft.FSharp.Control.AsyncActivation`1[T] ctxt) [0x00000] in <5b5a6cc1904cf4daa7450383c16c5a5b>:0 
+2019-09-26 10:30:45 -   at Microsoft.FSharp.Control.AsyncPrimitives.Invoke[T] (Microsoft.FSharp.Control.FSharpAsync`1[T] computation, Microsoft.FSharp.Control.AsyncActivation`1[T] ctxt) [0x00061] in <5b5a6cc1904cf4daa7450383c16c5a5b>:0 
+2019-09-26 10:30:45 -   at Microsoft.FSharp.Control.AsyncPrimitives.Bind[T,TResult] (Microsoft.FSharp.Control.AsyncActivation`1[T] ctxt, Microsoft.FSharp.Control.FSharpAsync`1[T] part1, Microsoft.FSharp.Core.FSharpFunc`2[T,TResult] part2) [0x00044] in <5b5a6cc1904cf4daa7450383c16c5a5b>:0 
+2019-09-26 10:30:45 -   at <StartupCode$FSharp-Core>.$Async+Combine@1109-1[T].Invoke (Microsoft.FSharp.Control.AsyncActivation`1[T] ctxt) [0x00000] in <5b5a6cc1904cf4daa7450383c16c5a5b>:0 
+2019-09-26 10:30:45 -   at Microsoft.FSharp.Control.AsyncPrimitives.Invoke[T] (Microsoft.FSharp.Control.FSharpAsync`1[T] computation, Microsoft.FSharp.Control.AsyncActivation`1[T] ctxt) [0x00061] in <5b5a6cc1904cf4daa7450383c16c5a5b>:0 
+2019-09-26 10:30:45 -   at Microsoft.FSharp.Control.AsyncPrimitives.CallFilterThenInvoke[T] (Microsoft.FSharp.Control.AsyncActivation`1[T] ctxt, Microsoft.FSharp.Core.FSharpFunc`2[T,TResult] catchFilter, System.Runtime.ExceptionServices.ExceptionDispatchInfo edi) [0x0003a] in <5b5a6cc1904cf4daa7450383c16c5a5b>:0 
+2019-09-26 10:30:45 -   at Microsoft.FSharp.Control.AsyncPrimitives+TryWith@526[T].Invoke (System.Runtime.ExceptionServices.ExceptionDispatchInfo edi) [0x0002a] in <5b5a6cc1904cf4daa7450383c16c5a5b>:0 
+2019-09-26 10:30:45 -   at <StartupCode$FSharp-Core>.$Async+Execute@128.Invoke (Microsoft.FSharp.Core.Unit unitVar0) [0x00000] in <5b5a6cc1904cf4daa7450383c16c5a5b>:0 
+2019-09-26 10:30:45 -   at Microsoft.FSharp.Control.Trampoline.Execute (Microsoft.FSharp.Core.FSharpFunc`2[T,TResult] firstAction) [0x00020] in <5b5a6cc1904cf4daa7450383c16c5a5b>:0 
+2019-09-26 10:30:45 - --- End of stack trace from previous location where exception was thrown ---
+2019-09-26 10:30:45 -   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <6e9b92f0d119424382ef180639777acb>:0 
+2019-09-26 10:30:45 -   at Microsoft.FSharp.Control.AsyncResult`1[T].Commit () [0x0002c] in <5b5a6cc1904cf4daa7450383c16c5a5b>:0 
+2019-09-26 10:30:45 -   at Microsoft.FSharp.Control.AsyncPrimitives.RunSynchronouslyInCurrentThread[a] (System.Threading.CancellationToken cancellationToken, Microsoft.FSharp.Control.FSharpAsync`1[T] computation) [0x00028] in <5b5a6cc1904cf4daa7450383c16c5a5b>:0 
+2019-09-26 10:30:45 -   at Microsoft.FSharp.Control.AsyncPrimitives.RunSynchronously[T] (System.Threading.CancellationToken cancellationToken, Microsoft.FSharp.Control.FSharpAsync`1[T] computation, Microsoft.FSharp.Core.FSharpOption`1[T] timeout) [0x00013] in <5b5a6cc1904cf4daa7450383c16c5a5b>:0 
+2019-09-26 10:30:45 -   at Microsoft.FSharp.Control.FSharpAsync.RunSynchronously[T] (Microsoft.FSharp.Control.FSharpAsync`1[T] computation, Microsoft.FSharp.Core.FSharpOption`1[T] timeout, Microsoft.FSharp.Core.FSharpOption`1[T] cancellationToken) [0x0006e] in <5b5a6cc1904cf4daa7450383c16c5a5b>:0 
+2019-09-26 10:30:45 -   at FSharp.Data.Http.RequestString (System.String url, Microsoft.FSharp.Core.FSharpOption`1[T] query, Microsoft.FSharp.Core.FSharpOption`1[T] headers, Microsoft.FSharp.Core.FSharpOption`1[T] httpMethod, Microsoft.FSharp.Core.FSharpOption`1[T] body, Microsoft.FSharp.Core.FSharpOption`1[T] cookies, Microsoft.FSharp.Core.FSharpOption`1[T] cookieContainer, Microsoft.FSharp.Core.FSharpOption`1[T] silentHttpErrors, Microsoft.FSharp.Core.FSharpOption`1[T] silentCookieErrors, Microsoft.FSharp.Core.FSharpOption`1[T] responseEncodingOverride, Microsoft.FSharp.Core.FSharpOption`1[T] customizeHttpRequest, Microsoft.FSharp.Core.FSharpOption`1[T] timeout) [0x0001a] in <5bc326044f906090a74503830426c35b>:0 
+2019-09-26 10:30:45 -   at FSI_0011.getPictureDescription (System.String imageFilePath) [0x00068] in <d1c339ee3e7342ce8257037fc432d0e3>:0 
+2019-09-26 10:30:45 -   at <StartupCode$FSI_0047>.$FSI_0047.main@ () [0x00000] in <d1c339ee3e7342ce8257037fc432d0e3>:0 
+2019-09-26 10:30:45 -   at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&)
+2019-09-26 10:30:45 -   at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <6e9b92f0d119424382ef180639777acb>:0 
+2019-09-26 10:30:45 - WebExceptionThe remote server returned an error: (400) Bad Request.
+2019-09-26 10:30:45 -   at System.Net.HttpWebRequest.EndGetResponse (System.IAsyncResult asyncResult) [0x00058] in <ff7a04492e6542e89795ad0b4ef278b5>:0 
+2019-09-26 10:30:45 -   at FSharp.Data.HttpHelpers+getResponseFromBeginEnd@1311-1.Invoke (System.IAsyncResult arg00) [0x00000] in <5bc326044f906090a74503830426c35b>:0 
+2019-09-26 10:30:45 -   at <StartupCode$FSharp-Core>.$Async+callback@1523[T].Invoke (System.IAsyncResult iar) [0x00037] in <5b5a6cc1904cf4daa7450383c16c5a5b>:0 
+2019-09-26 10:30:45 - --- End of stack trace from previous location where exception was thrown ---
+2019-09-26 10:30:45 -   at FSharp.Data.HttpHelpers+getResponseAsync@1319-4.Invoke (System.Exception _arg2) [0x00042] in <5bc326044f906090a74503830426c35b>:0 
+2019-09-26 10:30:45 -   at <StartupCode$FSharp-Core>.$Async+TryWith@1113-1[T].Invoke (System.Exception exn) [0x00000] in <5b5a6cc1904cf4daa7450383c16c5a5b>:0 
+2019-09-26 10:30:45 -   at <StartupCode$FSharp-Core>.$Async+TryWith@1113-3[T].Invoke (System.Exception edi) [0x00000] in <5b5a6cc1904cf4daa7450383c16c5a5b>:0 
+2019-09-26 10:30:45 -   at Microsoft.FSharp.Control.AsyncPrimitives.CallFilterThenInvoke[T] (Microsoft.FSharp.Control.AsyncActivation`1[T] ctxt, Microsoft.FSharp.Core.FSharpFunc`2[T,TResult] catchFilter, System.Runtime.ExceptionServices.ExceptionDispatchInfo edi) [0x0000c] in <5b5a6cc1904cf4daa7450383c16c5a5b>:0 
+2019-09-26 10:30:45 -   at Microsoft.FSharp.Control.AsyncPrimitives+TryWith@526[T].Invoke (System.Runtime.ExceptionServices.ExceptionDispatchInfo edi) [0x0002a] in <5b5a6cc1904cf4daa7450383c16c5a5b>:0 
+2019-09-26 10:30:45 -   at Microsoft.FSharp.Control.AsyncPrimitives+econt@510-1[T].Invoke (Microsoft.FSharp.Core.Unit unitVar0) [0x00007] in <5b5a6cc1904cf4daa7450383c16c5a5b>:0 
+2019-09-26 10:30:45 -   at Microsoft.FSharp.Control.AsyncPrimitives.CallThenContinue[a,b] (Microsoft.FSharp.Core.FSharpFunc`2[T,TResult] userCode, a arg, Microsoft.FSharp.Control.AsyncActivation`1[T] ctxt) [0x000aa] in <5b5a6cc1904cf4daa7450383c16c5a5b>:0 
+2019-09-26 10:30:45 -   at Microsoft.FSharp.Control.AsyncPrimitives+econt@510[T].Invoke (System.Runtime.ExceptionServices.ExceptionDispatchInfo exn) [0x00031] in <5b5a6cc1904cf4daa7450383c16c5a5b>:0 
+2019-09-26 10:30:45 -   at <StartupCode$FSharp-Core>.$Async+Execute@128.Invoke (Microsoft.FSharp.Core.Unit unitVar0) [0x00000] in <5b5a6cc1904cf4daa7450383c16c5a5b>:0 
+2019-09-26 10:30:45 -   at Microsoft.FSharp.Control.Trampoline.Execute (Microsoft.FSharp.Core.FSharpFunc`2[T,TResult] firstAction) [0x00020] in <5b5a6cc1904cf4daa7450383c16c5a5b>:0 
+2019-09-26 10:50:35 - getPictureDescription "img/landscape1.jpeg"
+2019-09-26 10:50:35 - Expression evaluation failed: Could not find file "/Users/egabasova/OneDrive - Dual Notion/Talks/2019-09-DevConfKrakow/demos/deep-learning/img/landscape1.jpeg"
+2019-09-26 10:50:35 - FileNotFoundExceptionCould not find file "/Users/egabasova/OneDrive - Dual Notion/Talks/2019-09-DevConfKrakow/demos/deep-learning/img/landscape1.jpeg"
+2019-09-26 10:50:35 -   at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <6e9b92f0d119424382ef180639777acb>:0 
+2019-09-26 10:50:35 -   at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share) [0x00000] in <6e9b92f0d119424382ef180639777acb>:0 
+2019-09-26 10:50:35 -   at (wrapper remoting-invoke-with-check) System.IO.FileStream:.ctor (string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare)
+2019-09-26 10:50:35 -   at System.IO.File.OpenRead (System.String path) [0x00000] in <6e9b92f0d119424382ef180639777acb>:0 
+2019-09-26 10:50:35 -   at System.IO.File.ReadAllBytes (System.String path) [0x00000] in <6e9b92f0d119424382ef180639777acb>:0 
+2019-09-26 10:50:35 -   at FSI_0011.getPictureDescription (System.String imageFilePath) [0x00000] in <d1c339ee3e7342ce8257037fc432d0e3>:0 
+2019-09-26 10:50:35 -   at <StartupCode$FSI_0048>.$FSI_0048.main@ () [0x00000] in <d1c339ee3e7342ce8257037fc432d0e3>:0 
+2019-09-26 10:50:35 -   at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&)
+2019-09-26 10:50:35 -   at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <6e9b92f0d119424382ef180639777acb>:0 
+2019-09-26 10:50:40 - getPictureDescription "img/landscape1.jpg"
+2019-09-26 10:50:47 - getPictureDescription "img/landscape2.jpg"
+2019-09-26 11:22:00 - shutdown request
+2019-09-26 12:10:29 - Microsoft (R) F# Interactive version 10.2.3 for F# 4.5
+2019-09-26 12:10:29 - Copyright (c) Microsoft Corporation. All Rights Reserved.
+2019-09-26 12:10:29 - For help type #help;;
+2019-09-26 12:10:29 - > val it :
+2019-09-26 12:10:29 -   ResizeArray<System.Type *
+2019-09-26 12:10:29 -               (obj ->
+2019-09-26 12:10:29 -                  seq<string *
+2019-09-26 12:10:29 -                      string> *
+2019-09-26 12:10:29 -                  string)>
+2019-09-26 12:10:29 - = seq []
+2019-09-26 12:10:29 - --> Added '/Users/egabasova/Downloads' to library include path
+2019-09-26 12:10:29 - --> Referenced '/Users/egabasova/Downloads/IfSharp.Kernel.dll' (file may be locked by F# Interactive process)
+2019-09-26 12:10:29 - --> Referenced '/Users/egabasova/Downloads/NetMQ.dll' (file may be locked by F# Interactive process)
+2019-09-26 12:10:31 - Reporting 0 opened comms
+2019-09-26 12:10:50 - #load "Paket.fsx"
+2019-09-26 12:10:50 - Paket.Version [ "FSharp.Data", "3.0"]
+2019-09-26 12:10:50 - #load "Paket.Generated.Refs.fsx"
+2019-09-26 12:11:29 - open System.IO  
+2019-09-26 12:11:29 - open FSharp.Data
+2019-09-26 12:11:29 - open FSharp.Data.HttpRequestHeaders
+2019-09-26 12:11:29 - open FSharp.Data.HttpContentTypes
+2019-09-26 12:11:29 - #load "subscription.fs" // Load subscription key
+2019-09-26 12:11:29 - let uriBase = "https://westeurope.api.cognitive.microsoft.com/vision/v2.0/analyze"
+2019-09-26 12:11:29 - type VisionApi = 
+2019-09-26 12:11:29 -   JsonProvider<"""{"tags":[{"name":"music","confidence":0.98865640163421631},{"name":"guitar","confidence":0.95694917440414429},{"name":"building material","confidence":0.41293439269065857},{"name":"lumber","confidence":0.29446199536323547},{"name":"bass","confidence":0.26204556226730347,"hint":"object"}],"description":{"tags":["road","building","outdoor","street","night","black","city","white","light","sitting","riding","man","side","empty","rain","corner","traffic","lit","hydrant","stop","board","parked","bus","tall"],"captions":[{"text":"a close up of an empty city street at night","confidence":0.7965622853462756}]},"requestId":"ad111816-5803-4176-a3a0-0aa59b517db6","metadata":{"width":604,"height":271,"format":"Jpeg"}}""">
+2019-09-26 12:11:33 - let getPictureDescription imageFilePath = 
+2019-09-26 12:11:33 -     let bytes = File.ReadAllBytes imageFilePath
+2019-09-26 12:11:33 -     let requestParameters = "visualFeatures=Tags,Description"
+2019-09-26 12:11:33 -     let res = 
+2019-09-26 12:11:33 -         Http.RequestString(uriBase + "?" + requestParameters, 
+2019-09-26 12:11:33 -                            headers = [ "Ocp-Apim-Subscription-Key", Subscription.subscriptionKey
+2019-09-26 12:11:33 -                                        ContentType Binary ],
+2019-09-26 12:11:33 -                            body = HttpRequestBody.BinaryUpload bytes)
+2019-09-26 12:11:33 -     let jsonObject = VisionApi.Parse res
+2019-09-26 12:11:33 -     
+2019-09-26 12:11:33 -     let description = jsonObject.Description.Captions.[0].Text
+2019-09-26 12:11:33 -     let tags = jsonObject.Tags |> Array.map (fun t -> t.Name, t.Confidence)
+2019-09-26 12:11:33 -     
+2019-09-26 12:11:33 -     printfn "%s\n------------------------------" description
+2019-09-26 12:11:33 -     tags |> Array.iter (fun (name, p) -> printfn "%s: %.3f" name p)
+2019-09-26 12:11:51 - getPictureDescription "img/orange.png"
+2019-09-26 12:13:16 - getPictureDescription "img/magritte.jpg"
+2019-09-26 12:14:52 - getPictureDescription "img/monkey2giraffe.jpeg"
+2019-09-26 12:15:48 - getPictureDescription "img/magritte.jpg"
+2019-09-26 13:49:40 - getPictureDescription "img/guitar.jpg"
+2019-09-26 14:00:17 - Reporting 0 opened comms
+2019-09-26 14:00:51 - Reporting 0 opened comms
+2019-09-26 14:02:04 - Reporting 0 opened comms
+2019-09-26 14:04:15 - Reporting 0 opened comms
+2019-09-27 11:08:43 - shutdown request
+2019-09-27 12:16:27 - Microsoft (R) F# Interactive version 10.2.3 for F# 4.5
+2019-09-27 12:16:27 - Copyright (c) Microsoft Corporation. All Rights Reserved.
+2019-09-27 12:16:27 - For help type #help;;
+2019-09-27 12:16:27 - > val it :
+2019-09-27 12:16:27 -   ResizeArray<System.Type *
+2019-09-27 12:16:27 -               (obj ->
+2019-09-27 12:16:27 -                  seq<string *
+2019-09-27 12:16:27 -                      string> *
+2019-09-27 12:16:27 -                  string)>
+2019-09-27 12:16:27 - = seq []
+2019-09-27 12:16:27 - --> Added '/Users/egabasova/Downloads' to library include path
+2019-09-27 12:16:27 - --> Referenced '/Users/egabasova/Downloads/IfSharp.Kernel.dll' (file may be locked by F# Interactive process)
+2019-09-27 12:16:27 - --> Referenced '/Users/egabasova/Downloads/NetMQ.dll' (file may be locked by F# Interactive process)
+2019-09-27 12:16:29 - Reporting 0 opened comms
+2019-09-27 12:16:32 - shutdown request
+2019-09-27 12:16:35 - Microsoft (R) F# Interactive version 10.2.3 for F# 4.5
+2019-09-27 12:16:35 - Copyright (c) Microsoft Corporation. All Rights Reserved.
+2019-09-27 12:16:35 - For help type #help;;
+2019-09-27 12:16:35 - > val it :
+2019-09-27 12:16:35 -   ResizeArray<System.Type *
+2019-09-27 12:16:35 -               (obj ->
+2019-09-27 12:16:35 -                  seq<string *
+2019-09-27 12:16:35 -                      string> *
+2019-09-27 12:16:35 -                  string)>
+2019-09-27 12:16:35 - = seq []
+2019-09-27 12:16:35 - --> Added '/Users/egabasova/Downloads' to library include path
+2019-09-27 12:16:35 - --> Referenced '/Users/egabasova/Downloads/IfSharp.Kernel.dll' (file may be locked by F# Interactive process)
+2019-09-27 12:16:35 - --> Referenced '/Users/egabasova/Downloads/NetMQ.dll' (file may be locked by F# Interactive process)
+2019-09-27 12:17:26 - open System.IO  
+2019-09-27 12:17:26 - open FSharp.Data
+2019-09-27 12:17:26 - open FSharp.Data.HttpRequestHeaders
+2019-09-27 12:17:26 - open FSharp.Data.HttpContentTypes
+2019-09-27 12:17:26 -  
+2019-09-27 12:17:26 - #load "subscription.fs" // Load subscription key
+2019-09-27 12:17:26 - let uriBase = "https://westeurope.api.cognitive.microsoft.com/vision/v2.0/analyze"
+2019-09-27 12:17:26 - type VisionApi = 
+2019-09-27 12:17:26 -   JsonProvider<"""{"tags":[{"name":"music","confidence":0.98865640163421631},{"name":"guitar","confidence":0.95694917440414429},{"name":"building material","confidence":0.41293439269065857},{"name":"lumber","confidence":0.29446199536323547},{"name":"bass","confidence":0.26204556226730347,"hint":"object"}],"description":{"tags":["road","building","outdoor","street","night","black","city","white","light","sitting","riding","man","side","empty","rain","corner","traffic","lit","hydrant","stop","board","parked","bus","tall"],"captions":[{"text":"a close up of an empty city street at night","confidence":0.7965622853462756}]},"requestId":"ad111816-5803-4176-a3a0-0aa59b517db6","metadata":{"width":604,"height":271,"format":"Jpeg"}}""">
+2019-09-27 12:17:26 - The namespace 'HttpRequestHeaders' is not defined.
+2019-09-27 12:17:26 - The namespace 'HttpContentTypes' is not defined.
+2019-09-27 12:17:48 - #load "Paket.fsx"
+2019-09-27 12:17:48 - Paket.Version [ "FSharp.Data", "3.0"]
+2019-09-27 12:17:48 - #load "Paket.Generated.Refs.fsx"
+2019-09-27 12:17:59 - open System.IO  
+2019-09-27 12:17:59 - open FSharp.Data
+2019-09-27 12:17:59 - open FSharp.Data.HttpRequestHeaders
+2019-09-27 12:17:59 - open FSharp.Data.HttpContentTypes
+2019-09-27 12:17:59 -  
+2019-09-27 12:17:59 - #load "subscription.fs" // Load subscription key
+2019-09-27 12:17:59 - let uriBase = "https://westeurope.api.cognitive.microsoft.com/vision/v2.0/analyze"
+2019-09-27 12:17:59 - type VisionApi = 
+2019-09-27 12:17:59 -   JsonProvider<"""{"tags":[{"name":"music","confidence":0.98865640163421631},{"name":"guitar","confidence":0.95694917440414429},{"name":"building material","confidence":0.41293439269065857},{"name":"lumber","confidence":0.29446199536323547},{"name":"bass","confidence":0.26204556226730347,"hint":"object"}],"description":{"tags":["road","building","outdoor","street","night","black","city","white","light","sitting","riding","man","side","empty","rain","corner","traffic","lit","hydrant","stop","board","parked","bus","tall"],"captions":[{"text":"a close up of an empty city street at night","confidence":0.7965622853462756}]},"requestId":"ad111816-5803-4176-a3a0-0aa59b517db6","metadata":{"width":604,"height":271,"format":"Jpeg"}}""">
+2019-09-27 12:18:05 - let getPictureDescription imageFilePath = 
+2019-09-27 12:18:05 -     let bytes = File.ReadAllBytes imageFilePath
+2019-09-27 12:18:05 -     let requestParameters = "visualFeatures=Tags,Description"
+2019-09-27 12:18:05 -     let res = 
+2019-09-27 12:18:05 -         Http.RequestString(uriBase + "?" + requestParameters, 
+2019-09-27 12:18:05 -                            headers = [ "Ocp-Apim-Subscription-Key", Subscription.subscriptionKey
+2019-09-27 12:18:05 -                                        ContentType Binary ],
+2019-09-27 12:18:05 -                            body = HttpRequestBody.BinaryUpload bytes)
+2019-09-27 12:18:05 -     let jsonObject = VisionApi.Parse res
+2019-09-27 12:18:05 -     
+2019-09-27 12:18:05 -     let description = jsonObject.Description.Captions.[0].Text
+2019-09-27 12:18:05 -     let tags = jsonObject.Tags |> Array.map (fun t -> t.Name, t.Confidence)
+2019-09-27 12:18:05 -     
+2019-09-27 12:18:05 -     printfn "%s\n------------------------------" description
+2019-09-27 12:18:05 -     tags |> Array.iter (fun (name, p) -> printfn "%s: %.3f" name p)
+2019-09-27 12:18:21 - getPictureDescription "img/guitar.jpg"
+2019-09-27 12:18:35 - getPictureDescription "img/monkey1.jpeg"
+2019-09-27 12:19:03 - getPictureDescription "img/monkey2.jpeg"
+2019-09-27 12:19:18 - getPictureDescription "img/smeal.png"
+2019-09-27 12:19:32 - getPictureDescription "img/gmonkey2.jpeg"
+2019-09-27 12:19:42 - getPictureDescription "img/gmonkey1.jpeg" 
+2019-09-27 12:19:54 - getPictureDescription "img/ggmonkey2.jpeg"
+2019-09-27 12:20:31 - getPictureDescription "img/landscape1.jpg"
+2019-09-27 12:20:52 - getPictureDescription "img/monkey2giraffe.jpeg"
+2019-09-27 12:21:06 - getPictureDescription "img/magritte.jpg"
+2019-09-27 12:26:59 - shutdown request
+2019-09-27 12:27:02 - Microsoft (R) F# Interactive version 10.2.3 for F# 4.5
+2019-09-27 12:27:02 - Copyright (c) Microsoft Corporation. All Rights Reserved.
+2019-09-27 12:27:02 - For help type #help;;
+2019-09-27 12:27:02 - > val it :
+2019-09-27 12:27:02 -   ResizeArray<System.Type *
+2019-09-27 12:27:02 -               (obj ->
+2019-09-27 12:27:02 -                  seq<string *
+2019-09-27 12:27:02 -                      string> *
+2019-09-27 12:27:02 -                  string)>
+2019-09-27 12:27:02 - = seq []
+2019-09-27 12:27:02 - --> Added '/Users/egabasova/Downloads' to library include path
+2019-09-27 12:27:02 - --> Referenced '/Users/egabasova/Downloads/IfSharp.Kernel.dll' (file may be locked by F# Interactive process)
+2019-09-27 12:27:02 - --> Referenced '/Users/egabasova/Downloads/NetMQ.dll' (file may be locked by F# Interactive process)
+2019-09-27 12:27:06 - #load "Paket.fsx"
+2019-09-27 12:27:06 - Paket.Version [ "FSharp.Data", "3.0"]
+2019-09-27 12:27:06 - #load "Paket.Generated.Refs.fsx"
+2019-09-27 12:52:17 - Reporting 0 opened comms
+2019-09-27 12:52:21 - open System.IO  
+2019-09-27 12:52:21 - open FSharp.Data
+2019-09-27 12:52:21 - open FSharp.Data.HttpRequestHeaders
+2019-09-27 12:52:21 - open FSharp.Data.HttpContentTypes
+2019-09-27 12:52:21 -  
+2019-09-27 12:52:21 - #load "subscription.fs" // Load subscription key
+2019-09-27 12:52:21 - let uriBase = "https://westeurope.api.cognitive.microsoft.com/vision/v2.0/analyze"
+2019-09-27 12:52:21 - type VisionApi = 
+2019-09-27 12:52:21 -   JsonProvider<"""{"tags":[{"name":"music","confidence":0.98865640163421631},{"name":"guitar","confidence":0.95694917440414429},{"name":"building material","confidence":0.41293439269065857},{"name":"lumber","confidence":0.29446199536323547},{"name":"bass","confidence":0.26204556226730347,"hint":"object"}],"description":{"tags":["road","building","outdoor","street","night","black","city","white","light","sitting","riding","man","side","empty","rain","corner","traffic","lit","hydrant","stop","board","parked","bus","tall"],"captions":[{"text":"a close up of an empty city street at night","confidence":0.7965622853462756}]},"requestId":"ad111816-5803-4176-a3a0-0aa59b517db6","metadata":{"width":604,"height":271,"format":"Jpeg"}}""">
+2019-09-27 12:52:28 - let getPictureDescription imageFilePath = 
+2019-09-27 12:52:28 -     let bytes = File.ReadAllBytes imageFilePath
+2019-09-27 12:52:28 -     let requestParameters = "visualFeatures=Tags,Description"
+2019-09-27 12:52:28 -     let res = 
+2019-09-27 12:52:28 -         Http.RequestString(uriBase + "?" + requestParameters, 
+2019-09-27 12:52:28 -                            headers = [ "Ocp-Apim-Subscription-Key", Subscription.subscriptionKey
+2019-09-27 12:52:28 -                                        ContentType Binary ],
+2019-09-27 12:52:28 -                            body = HttpRequestBody.BinaryUpload bytes)
+2019-09-27 12:52:28 -     let jsonObject = VisionApi.Parse res
+2019-09-27 12:52:28 -     
+2019-09-27 12:52:28 -     let description = jsonObject.Description.Captions.[0].Text
+2019-09-27 12:52:28 -     let tags = jsonObject.Tags |> Array.map (fun t -> t.Name, t.Confidence)
+2019-09-27 12:52:28 -     
+2019-09-27 12:52:28 -     printfn "%s\n------------------------------" description
+2019-09-27 12:52:28 -     tags |> Array.iter (fun (name, p) -> printfn "%s: %.3f" name p)
+2019-09-27 12:52:41 - getPictureDescription "img/guitar.jpg"
+2019-09-27 12:52:53 - getPictureDescription "img/monkey1.jpeg"  
+2019-09-27 12:52:59 - getPictureDescription "img/monkey2.jpeg"
+2019-09-27 12:53:12 - getPictureDescription "img/smeal.png"
+2019-09-27 12:53:37 - getPictureDescription "img/gmonkey2.jpeg"
+2019-09-27 12:53:43 - getPictureDescription "img/gmonkey1.jpeg" 
+2019-09-27 12:53:53 - getPictureDescription "img/ggmonkey2.jpeg"
+2019-09-27 12:54:06 - getPictureDescription "img/landscape1.jpg"
+2019-09-27 12:54:25 - getPictureDescription "img/monkey2giraffe.jpeg"
+2019-09-27 12:54:41 - getPictureDescription "img/magritte.jpg"
+2019-09-27 12:55:31 - shutdown request
+2019-09-27 12:55:34 - Microsoft (R) F# Interactive version 10.2.3 for F# 4.5
+2019-09-27 12:55:34 - Copyright (c) Microsoft Corporation. All Rights Reserved.
+2019-09-27 12:55:34 - For help type #help;;
+2019-09-27 12:55:34 - > val it :
+2019-09-27 12:55:34 -   ResizeArray<System.Type *
+2019-09-27 12:55:34 -               (obj ->
+2019-09-27 12:55:34 -                  seq<string *
+2019-09-27 12:55:34 -                      string> *
+2019-09-27 12:55:34 -                  string)>
+2019-09-27 12:55:34 - = seq []
+2019-09-27 12:55:34 - --> Added '/Users/egabasova/Downloads' to library include path
+2019-09-27 12:55:34 - --> Referenced '/Users/egabasova/Downloads/IfSharp.Kernel.dll' (file may be locked by F# Interactive process)
+2019-09-27 12:55:34 - --> Referenced '/Users/egabasova/Downloads/NetMQ.dll' (file may be locked by F# Interactive process)
+2019-09-27 12:55:42 - #load "Paket.fsx"
+2019-09-27 12:55:42 - Paket.Version [ "FSharp.Data", "3.0"]
+2019-09-27 12:55:42 - #load "Paket.Generated.Refs.fsx"
+2019-09-27 15:23:01 - Reporting 0 opened comms
+2019-09-27 15:23:29 - open System.IO  
+2019-09-27 15:23:29 - open FSharp.Data
+2019-09-27 15:23:29 - open FSharp.Data.HttpRequestHeaders
+2019-09-27 15:23:29 - open FSharp.Data.HttpContentTypes
+2019-09-27 15:23:29 -  
+2019-09-27 15:23:29 - #load "subscription.fs" // Load subscription key
+2019-09-27 15:23:29 - let uriBase = "https://westeurope.api.cognitive.microsoft.com/vision/v2.0/analyze"
+2019-09-27 15:23:29 - type VisionApi = 
+2019-09-27 15:23:29 -   JsonProvider<"""{"tags":[{"name":"music","confidence":0.98865640163421631},{"name":"guitar","confidence":0.95694917440414429},{"name":"building material","confidence":0.41293439269065857},{"name":"lumber","confidence":0.29446199536323547},{"name":"bass","confidence":0.26204556226730347,"hint":"object"}],"description":{"tags":["road","building","outdoor","street","night","black","city","white","light","sitting","riding","man","side","empty","rain","corner","traffic","lit","hydrant","stop","board","parked","bus","tall"],"captions":[{"text":"a close up of an empty city street at night","confidence":0.7965622853462756}]},"requestId":"ad111816-5803-4176-a3a0-0aa59b517db6","metadata":{"width":604,"height":271,"format":"Jpeg"}}""">
+2019-09-27 15:23:47 - let getPictureDescription imageFilePath = 
+2019-09-27 15:23:47 -     let bytes = File.ReadAllBytes imageFilePath
+2019-09-27 15:23:47 -     let requestParameters = "visualFeatures=Tags,Description"
+2019-09-27 15:23:47 -     let res = 
+2019-09-27 15:23:47 -         Http.RequestString(uriBase + "?" + requestParameters, 
+2019-09-27 15:23:47 -                            headers = [ "Ocp-Apim-Subscription-Key", Subscription.subscriptionKey
+2019-09-27 15:23:47 -                                        ContentType Binary ],
+2019-09-27 15:23:47 -                            body = HttpRequestBody.BinaryUpload bytes)
+2019-09-27 15:23:47 -     let jsonObject = VisionApi.Parse res
+2019-09-27 15:23:47 -     
+2019-09-27 15:23:47 -     let description = jsonObject.Description.Captions.[0].Text
+2019-09-27 15:23:47 -     let tags = jsonObject.Tags |> Array.map (fun t -> t.Name, t.Confidence)
+2019-09-27 15:23:47 -     
+2019-09-27 15:23:47 -     printfn "%s\n------------------------------" description
+2019-09-27 15:23:47 -     tags |> Array.iter (fun (name, p) -> printfn "%s: %.3f" name p)
+2019-09-27 15:24:14 - getPictureDescription "img/guitar.jpg"
+2019-09-27 15:24:49 - getPictureDescription "img/monkey1.jpeg"  
+2019-09-27 15:25:15 - getPictureDescription "img/monkey2.jpeg"
+2019-09-27 15:25:49 - getPictureDescription "img/smeal.png"
+2019-09-27 15:26:55 - getPictureDescription "img/gmonkey2.jpeg"
+2019-09-27 15:27:06 - getPictureDescription "img/gmonkey1.jpeg" 
+2019-09-27 15:27:44 - getPictureDescription "img/ggmonkey2.jpeg"
+2019-09-27 15:28:28 - getPictureDescription "img/landscape1.jpg"
+2019-09-27 15:29:26 - getPictureDescription "img/monkey2giraffe.jpeg"
+2019-09-27 15:30:06 - getPictureDescription "img/magritte.jpg"
+2019-09-28 11:38:43 - shutdown request
+2019-10-15 20:42:25 - Microsoft (R) F# Interactive version 10.2.3 for F# 4.5
+2019-10-15 20:42:25 - Copyright (c) Microsoft Corporation. All Rights Reserved.
+2019-10-15 20:42:25 - For help type #help;;
+2019-10-15 20:42:25 - > val it :
+2019-10-15 20:42:25 -   ResizeArray<System.Type *
+2019-10-15 20:42:25 -               (obj ->
+2019-10-15 20:42:25 -                  seq<string *
+2019-10-15 20:42:25 -                      string> *
+2019-10-15 20:42:25 -                  string)>
+2019-10-15 20:42:25 - = seq []
+2019-10-15 20:42:25 - --> Added '/Users/egabasova/Downloads' to library include path
+2019-10-15 20:42:25 - --> Referenced '/Users/egabasova/Downloads/IfSharp.Kernel.dll' (file may be locked by F# Interactive process)
+2019-10-15 20:42:25 - --> Referenced '/Users/egabasova/Downloads/NetMQ.dll' (file may be locked by F# Interactive process)
+2019-10-15 20:42:28 - Reporting 0 opened comms
+2019-10-15 20:43:22 - shutdown request
+2019-10-21 15:19:39 - shutdown request
+2019-10-21 15:19:42 - F# Interactive for F# 4.1
+2019-10-21 15:19:42 - Freely distributed under the Apache 2.0 Open Source License
+2019-10-21 15:19:42 - For help type #help;;
+2019-10-21 15:19:42 - > val it : ResizeArray<System.Type * (obj -> seq<string * string> * string)> =
+2019-10-21 15:19:42 -   seq []
+2019-10-21 15:19:42 - --> Added '/Users/egabasova/Downloads/IfSharp.v3.0.0-beta3' to library include path
+2019-10-21 15:19:42 - --> Referenced '/Users/egabasova/Downloads/IfSharp.v3.0.0-beta3/IfSharp.Kernel.dll' (file may be locked by F# Interactive process)
+2019-10-21 15:19:42 - --> Referenced '/Users/egabasova/Downloads/IfSharp.v3.0.0-beta3/NetMQ.dll' (file may be locked by F# Interactive process)
+2019-10-21 15:20:03 - F# Interactive for F# 4.1
+2019-10-21 15:20:03 - Freely distributed under the Apache 2.0 Open Source License
+2019-10-21 15:20:03 - For help type #help;;
+2019-10-21 15:20:03 - > val it : ResizeArray<System.Type * (obj -> seq<string * string> * string)> =
+2019-10-21 15:20:03 -   seq []
+2019-10-21 15:20:03 - --> Added '/Users/egabasova/Downloads/IfSharp.v3.0.0-beta3' to library include path
+2019-10-21 15:20:03 - --> Referenced '/Users/egabasova/Downloads/IfSharp.v3.0.0-beta3/IfSharp.Kernel.dll' (file may be locked by F# Interactive process)
+2019-10-21 15:20:03 - --> Referenced '/Users/egabasova/Downloads/IfSharp.v3.0.0-beta3/NetMQ.dll' (file may be locked by F# Interactive process)
+2019-10-21 15:20:08 - shutdown request
+2019-10-21 15:20:11 - F# Interactive for F# 4.1
+2019-10-21 15:20:11 - Freely distributed under the Apache 2.0 Open Source License
+2019-10-21 15:20:11 - For help type #help;;
+2019-10-21 15:20:11 - > val it : ResizeArray<System.Type * (obj -> seq<string * string> * string)> =
+2019-10-21 15:20:11 -   seq []
+2019-10-21 15:20:11 - --> Added '/Users/egabasova/Downloads/IfSharp.v3.0.0-beta3' to library include path
+2019-10-21 15:20:11 - --> Referenced '/Users/egabasova/Downloads/IfSharp.v3.0.0-beta3/IfSharp.Kernel.dll' (file may be locked by F# Interactive process)
+2019-10-21 15:20:11 - --> Referenced '/Users/egabasova/Downloads/IfSharp.v3.0.0-beta3/NetMQ.dll' (file may be locked by F# Interactive process)
+2019-10-21 15:20:15 - #load "Paket.fsx"
+2019-10-21 15:20:15 - Paket.Version [ "FSharp.Data", "3.0"]
+2019-10-21 15:20:15 - #load "Paket.Generated.Refs.fsx"
+2019-10-21 15:22:06 - open System.IO  
+2019-10-21 15:22:06 - open FSharp.Data
+2019-10-21 15:22:06 - open FSharp.Data.HttpRequestHeaders
+2019-10-21 15:22:06 - open FSharp.Data.HttpContentTypes
+2019-10-21 15:22:06 -  
+2019-10-21 15:22:06 - #load "subscription.fs" // Load subscription key
+2019-10-21 15:22:06 - //let uriBase = "https://westeurope.api.cognitive.microsoft.com/vision/v2.0/analyze"
+2019-10-21 15:22:06 - let uriBase = "https://vision-demo.cognitiveservices.azure.com/v2.0/analyze"
+2019-10-21 15:22:06 - type VisionApi = 
+2019-10-21 15:22:06 -   JsonProvider<"""{"tags":[{"name":"music","confidence":0.98865640163421631},{"name":"guitar","confidence":0.95694917440414429},{"name":"building material","confidence":0.41293439269065857},{"name":"lumber","confidence":0.29446199536323547},{"name":"bass","confidence":0.26204556226730347,"hint":"object"}],"description":{"tags":["road","building","outdoor","street","night","black","city","white","light","sitting","riding","man","side","empty","rain","corner","traffic","lit","hydrant","stop","board","parked","bus","tall"],"captions":[{"text":"a close up of an empty city street at night","confidence":0.7965622853462756}]},"requestId":"ad111816-5803-4176-a3a0-0aa59b517db6","metadata":{"width":604,"height":271,"format":"Jpeg"}}""">
+2019-10-21 15:22:10 - let getPictureDescription imageFilePath = 
+2019-10-21 15:22:10 -     let bytes = File.ReadAllBytes imageFilePath
+2019-10-21 15:22:10 -     let requestParameters = "visualFeatures=Tags,Description"
+2019-10-21 15:22:10 -     let res = 
+2019-10-21 15:22:10 -         Http.RequestString(uriBase + "?" + requestParameters, 
+2019-10-21 15:22:10 -                            headers = [ "Ocp-Apim-Subscription-Key", Subscription.subscriptionKey
+2019-10-21 15:22:10 -                                        ContentType Binary ],
+2019-10-21 15:22:10 -                            body = HttpRequestBody.BinaryUpload bytes)
+2019-10-21 15:22:10 -     let jsonObject = VisionApi.Parse res
+2019-10-21 15:22:10 -     
+2019-10-21 15:22:10 -     let description = jsonObject.Description.Captions.[0].Text
+2019-10-21 15:22:10 -     let tags = jsonObject.Tags |> Array.map (fun t -> t.Name, t.Confidence)
+2019-10-21 15:22:10 -     
+2019-10-21 15:22:10 -     printfn "%s\n------------------------------" description
+2019-10-21 15:22:10 -     tags |> Array.iter (fun (name, p) -> printfn "%s: %.3f" name p)
+2019-10-21 15:22:14 - getPictureDescription "img/guitar.jpg"
+2019-10-21 15:22:14 - Expression evaluation failed: The remote server returned an error: (404) Resource Not Found.
+2019-10-21 15:22:14 - Response from https://vision-demo.cognitiveservices.azure.com/v2.0/analyze?visualFeatures=Tags,Description:
+2019-10-21 15:22:14 - {"error":{"code":"404","message": "Resource not found"}}
+2019-10-21 15:22:14 - WebExceptionThe remote server returned an error: (404) Resource Not Found.
+2019-10-21 15:22:14 - Response from https://vision-demo.cognitiveservices.azure.com/v2.0/analyze?visualFeatures=Tags,Description:
+2019-10-21 15:22:14 - {"error":{"code":"404","message": "Resource not found"}}
+2019-10-21 15:22:14 -   at FSharp.Data.HttpHelpers+augmentWebExceptionsWithDetails@1227-3[a].Invoke (Microsoft.FSharp.Core.Unit unitVar) [0x000cc] in <5bc326044f906090a74503830426c35b>:0 
+2019-10-21 15:22:14 -   at Microsoft.FSharp.Control.AsyncBuilderImpl+callA@839[b,a].Invoke (Microsoft.FSharp.Control.AsyncParams`1[T] args) [0x00052] in <59964427904cf4daa745038327449659>:0 
+2019-10-21 15:22:14 - --- End of stack trace from previous location where exception was thrown ---
+2019-10-21 15:22:14 -   at Microsoft.FSharp.Control.AsyncBuilderImpl.commit[a] (Microsoft.FSharp.Control.AsyncBuilderImpl+AsyncImplResult`1[T] res) [0x0002d] in <59964427904cf4daa745038327449659>:0 
+2019-10-21 15:22:14 -   at Microsoft.FSharp.Control.CancellationTokenOps.RunSynchronouslyInCurrentThread[a] (System.Threading.CancellationToken token, Microsoft.FSharp.Control.FSharpAsync`1[T] computation) [0x00029] in <59964427904cf4daa745038327449659>:0 
+2019-10-21 15:22:14 -   at Microsoft.FSharp.Control.CancellationTokenOps.RunSynchronously[a] (System.Threading.CancellationToken token, Microsoft.FSharp.Control.FSharpAsync`1[T] computation, Microsoft.FSharp.Core.FSharpOption`1[T] timeout) [0x00014] in <59964427904cf4daa745038327449659>:0 
+2019-10-21 15:22:14 -   at Microsoft.FSharp.Control.FSharpAsync.RunSynchronously[T] (Microsoft.FSharp.Control.FSharpAsync`1[T] computation, Microsoft.FSharp.Core.FSharpOption`1[T] timeout, Microsoft.FSharp.Core.FSharpOption`1[T] cancellationToken) [0x00071] in <59964427904cf4daa745038327449659>:0 
+2019-10-21 15:22:14 -   at FSharp.Data.Http.RequestString (System.String url, Microsoft.FSharp.Core.FSharpOption`1[T] query, Microsoft.FSharp.Core.FSharpOption`1[T] headers, Microsoft.FSharp.Core.FSharpOption`1[T] httpMethod, Microsoft.FSharp.Core.FSharpOption`1[T] body, Microsoft.FSharp.Core.FSharpOption`1[T] cookies, Microsoft.FSharp.Core.FSharpOption`1[T] cookieContainer, Microsoft.FSharp.Core.FSharpOption`1[T] silentHttpErrors, Microsoft.FSharp.Core.FSharpOption`1[T] silentCookieErrors, Microsoft.FSharp.Core.FSharpOption`1[T] responseEncodingOverride, Microsoft.FSharp.Core.FSharpOption`1[T] customizeHttpRequest, Microsoft.FSharp.Core.FSharpOption`1[T] timeout) [0x0001a] in <5bc326044f906090a74503830426c35b>:0 
+2019-10-21 15:22:14 -   at FSI_0011.getPictureDescription (System.String imageFilePath) [0x0006e] in <d9252d2189a84da5ab93f2f6adac8916>:0 
+2019-10-21 15:22:14 -   at <StartupCode$FSI_0012>.$FSI_0012.main@ () [0x00001] in <d9252d2189a84da5ab93f2f6adac8916>:0 
+2019-10-21 15:22:14 -   at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+2019-10-21 15:22:14 -   at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <47b74980241a4d7898fb5dbf7819d2e5>:0 
+2019-10-21 15:22:14 - WebExceptionThe remote server returned an error: (404) Resource Not Found.
+2019-10-21 15:22:14 -   at System.Net.HttpWebRequest+<GetResponseFromData>d__247.MoveNext () [0x00152] in <8fc855470d454244a5ca640c7d8d6998>:0 
+2019-10-21 15:22:14 - --- End of stack trace from previous location where exception was thrown ---
+2019-10-21 15:22:14 -   at System.Net.HttpWebRequest+<RunWithTimeoutWorker>d__244`1[T].MoveNext () [0x000ba] in <8fc855470d454244a5ca640c7d8d6998>:0 
+2019-10-21 15:22:14 - --- End of stack trace from previous location where exception was thrown ---
+2019-10-21 15:22:14 -   at System.Net.HttpWebRequest.EndGetResponse (System.IAsyncResult asyncResult) [0x0001d] in <8fc855470d454244a5ca640c7d8d6998>:0 
+2019-10-21 15:22:14 -   at FSharp.Data.HttpHelpers+getResponseFromBeginEnd@1311-1.Invoke (System.IAsyncResult arg00) [0x00000] in <5bc326044f906090a74503830426c35b>:0 
+2019-10-21 15:22:14 -   at <StartupCode$FSharp-Core>.$Control+callback@1856[T].Invoke (System.IAsyncResult ar) [0x0003b] in <59964427904cf4daa745038327449659>:0 
+2019-10-21 15:22:14 - --- End of stack trace from previous location where exception was thrown ---
+2019-10-21 15:22:14 -   at FSharp.Data.HttpHelpers+getResponseAsync@1319-4.Invoke (System.Exception _arg2) [0x00042] in <5bc326044f906090a74503830426c35b>:0 
+2019-10-21 15:22:14 -   at Microsoft.FSharp.Control.AsyncBuilderImpl+tryWithExnA@881[a].Invoke (System.Runtime.ExceptionServices.ExceptionDispatchInfo edi) [0x0000d] in <59964427904cf4daa745038327449659>:0 
+2019-10-21 15:22:14 -   at Microsoft.FSharp.Control.AsyncBuilderImpl+callA@839[b,a].Invoke (Microsoft.FSharp.Control.AsyncParams`1[T] args) [0x00052] in <59964427904cf4daa745038327449659>:0 
+2019-10-21 15:23:25 - open System.IO  
+2019-10-21 15:23:25 - open FSharp.Data
+2019-10-21 15:23:25 - open FSharp.Data.HttpRequestHeaders
+2019-10-21 15:23:25 - open FSharp.Data.HttpContentTypes
+2019-10-21 15:23:25 -  
+2019-10-21 15:23:25 - #load "subscription.fs" // Load subscription key
+2019-10-21 15:23:25 - //let uriBase = "https://westeurope.api.cognitive.microsoft.com/vision/v2.0/analyze"
+2019-10-21 15:23:25 - let uriBase = "https://vision-demo.cognitiveservices.azure.com/"
+2019-10-21 15:23:25 - type VisionApi = 
+2019-10-21 15:23:25 -   JsonProvider<"""{"tags":[{"name":"music","confidence":0.98865640163421631},{"name":"guitar","confidence":0.95694917440414429},{"name":"building material","confidence":0.41293439269065857},{"name":"lumber","confidence":0.29446199536323547},{"name":"bass","confidence":0.26204556226730347,"hint":"object"}],"description":{"tags":["road","building","outdoor","street","night","black","city","white","light","sitting","riding","man","side","empty","rain","corner","traffic","lit","hydrant","stop","board","parked","bus","tall"],"captions":[{"text":"a close up of an empty city street at night","confidence":0.7965622853462756}]},"requestId":"ad111816-5803-4176-a3a0-0aa59b517db6","metadata":{"width":604,"height":271,"format":"Jpeg"}}""">
+2019-10-21 15:23:28 - let getPictureDescription imageFilePath = 
+2019-10-21 15:23:28 -     let bytes = File.ReadAllBytes imageFilePath
+2019-10-21 15:23:28 -     let requestParameters = "visualFeatures=Tags,Description"
+2019-10-21 15:23:28 -     let res = 
+2019-10-21 15:23:28 -         Http.RequestString(uriBase + "?" + requestParameters, 
+2019-10-21 15:23:28 -                            headers = [ "Ocp-Apim-Subscription-Key", Subscription.subscriptionKey
+2019-10-21 15:23:28 -                                        ContentType Binary ],
+2019-10-21 15:23:28 -                            body = HttpRequestBody.BinaryUpload bytes)
+2019-10-21 15:23:28 -     let jsonObject = VisionApi.Parse res
+2019-10-21 15:23:28 -     
+2019-10-21 15:23:28 -     let description = jsonObject.Description.Captions.[0].Text
+2019-10-21 15:23:28 -     let tags = jsonObject.Tags |> Array.map (fun t -> t.Name, t.Confidence)
+2019-10-21 15:23:28 -     
+2019-10-21 15:23:28 -     printfn "%s\n------------------------------" description
+2019-10-21 15:23:28 -     tags |> Array.iter (fun (name, p) -> printfn "%s: %.3f" name p)
+2019-10-21 15:23:30 - getPictureDescription "img/guitar.jpg"
+2019-10-21 15:23:30 - Expression evaluation failed: The remote server returned an error: (404) Resource Not Found.
+2019-10-21 15:23:30 - Response from https://vision-demo.cognitiveservices.azure.com/?visualFeatures=Tags,Description:
+2019-10-21 15:23:30 - {"error":{"code":"404","message": "Resource not found"}}
+2019-10-21 15:23:30 - WebExceptionThe remote server returned an error: (404) Resource Not Found.
+2019-10-21 15:23:30 - Response from https://vision-demo.cognitiveservices.azure.com/?visualFeatures=Tags,Description:
+2019-10-21 15:23:30 - {"error":{"code":"404","message": "Resource not found"}}
+2019-10-21 15:23:30 -   at FSharp.Data.HttpHelpers+augmentWebExceptionsWithDetails@1227-3[a].Invoke (Microsoft.FSharp.Core.Unit unitVar) [0x000cc] in <5bc326044f906090a74503830426c35b>:0 
+2019-10-21 15:23:30 -   at Microsoft.FSharp.Control.AsyncBuilderImpl+callA@839[b,a].Invoke (Microsoft.FSharp.Control.AsyncParams`1[T] args) [0x00052] in <59964427904cf4daa745038327449659>:0 
+2019-10-21 15:23:30 - --- End of stack trace from previous location where exception was thrown ---
+2019-10-21 15:23:30 -   at Microsoft.FSharp.Control.AsyncBuilderImpl.commit[a] (Microsoft.FSharp.Control.AsyncBuilderImpl+AsyncImplResult`1[T] res) [0x0002d] in <59964427904cf4daa745038327449659>:0 
+2019-10-21 15:23:30 -   at Microsoft.FSharp.Control.CancellationTokenOps.RunSynchronouslyInCurrentThread[a] (System.Threading.CancellationToken token, Microsoft.FSharp.Control.FSharpAsync`1[T] computation) [0x00029] in <59964427904cf4daa745038327449659>:0 
+2019-10-21 15:23:30 -   at Microsoft.FSharp.Control.CancellationTokenOps.RunSynchronously[a] (System.Threading.CancellationToken token, Microsoft.FSharp.Control.FSharpAsync`1[T] computation, Microsoft.FSharp.Core.FSharpOption`1[T] timeout) [0x00014] in <59964427904cf4daa745038327449659>:0 
+2019-10-21 15:23:30 -   at Microsoft.FSharp.Control.FSharpAsync.RunSynchronously[T] (Microsoft.FSharp.Control.FSharpAsync`1[T] computation, Microsoft.FSharp.Core.FSharpOption`1[T] timeout, Microsoft.FSharp.Core.FSharpOption`1[T] cancellationToken) [0x00071] in <59964427904cf4daa745038327449659>:0 
+2019-10-21 15:23:30 -   at FSharp.Data.Http.RequestString (System.String url, Microsoft.FSharp.Core.FSharpOption`1[T] query, Microsoft.FSharp.Core.FSharpOption`1[T] headers, Microsoft.FSharp.Core.FSharpOption`1[T] httpMethod, Microsoft.FSharp.Core.FSharpOption`1[T] body, Microsoft.FSharp.Core.FSharpOption`1[T] cookies, Microsoft.FSharp.Core.FSharpOption`1[T] cookieContainer, Microsoft.FSharp.Core.FSharpOption`1[T] silentHttpErrors, Microsoft.FSharp.Core.FSharpOption`1[T] silentCookieErrors, Microsoft.FSharp.Core.FSharpOption`1[T] responseEncodingOverride, Microsoft.FSharp.Core.FSharpOption`1[T] customizeHttpRequest, Microsoft.FSharp.Core.FSharpOption`1[T] timeout) [0x0001a] in <5bc326044f906090a74503830426c35b>:0 
+2019-10-21 15:23:30 -   at FSI_0016.getPictureDescription (System.String imageFilePath) [0x0006e] in <d9252d2189a84da5ab93f2f6adac8916>:0 
+2019-10-21 15:23:30 -   at <StartupCode$FSI_0017>.$FSI_0017.main@ () [0x00001] in <d9252d2189a84da5ab93f2f6adac8916>:0 
+2019-10-21 15:23:30 -   at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+2019-10-21 15:23:30 -   at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <47b74980241a4d7898fb5dbf7819d2e5>:0 
+2019-10-21 15:23:30 - WebExceptionThe remote server returned an error: (404) Resource Not Found.
+2019-10-21 15:23:30 -   at System.Net.HttpWebRequest+<GetResponseFromData>d__247.MoveNext () [0x00152] in <8fc855470d454244a5ca640c7d8d6998>:0 
+2019-10-21 15:23:30 - --- End of stack trace from previous location where exception was thrown ---
+2019-10-21 15:23:30 -   at System.Net.HttpWebRequest+<RunWithTimeoutWorker>d__244`1[T].MoveNext () [0x000ba] in <8fc855470d454244a5ca640c7d8d6998>:0 
+2019-10-21 15:23:30 - --- End of stack trace from previous location where exception was thrown ---
+2019-10-21 15:23:30 -   at System.Net.HttpWebRequest.EndGetResponse (System.IAsyncResult asyncResult) [0x0001d] in <8fc855470d454244a5ca640c7d8d6998>:0 
+2019-10-21 15:23:30 -   at FSharp.Data.HttpHelpers+getResponseFromBeginEnd@1311-1.Invoke (System.IAsyncResult arg00) [0x00000] in <5bc326044f906090a74503830426c35b>:0 
+2019-10-21 15:23:30 -   at <StartupCode$FSharp-Core>.$Control+callback@1856[T].Invoke (System.IAsyncResult ar) [0x0003b] in <59964427904cf4daa745038327449659>:0 
+2019-10-21 15:23:30 - --- End of stack trace from previous location where exception was thrown ---
+2019-10-21 15:23:30 -   at FSharp.Data.HttpHelpers+getResponseAsync@1319-4.Invoke (System.Exception _arg2) [0x00042] in <5bc326044f906090a74503830426c35b>:0 
+2019-10-21 15:23:30 -   at Microsoft.FSharp.Control.AsyncBuilderImpl+tryWithExnA@881[a].Invoke (System.Runtime.ExceptionServices.ExceptionDispatchInfo edi) [0x0000d] in <59964427904cf4daa745038327449659>:0 
+2019-10-21 15:23:30 -   at Microsoft.FSharp.Control.AsyncBuilderImpl+callA@839[b,a].Invoke (Microsoft.FSharp.Control.AsyncParams`1[T] args) [0x00052] in <59964427904cf4daa745038327449659>:0 
+2019-10-21 15:24:56 - open System.IO  
+2019-10-21 15:24:56 - open FSharp.Data
+2019-10-21 15:24:56 - open FSharp.Data.HttpRequestHeaders
+2019-10-21 15:24:56 - open FSharp.Data.HttpContentTypes
+2019-10-21 15:24:56 -  
+2019-10-21 15:24:56 - #load "subscription.fs" // Load subscription key
+2019-10-21 15:24:56 - let uriBase = "https://westeurope.api.cognitive.microsoft.com/vision/v2.0/analyze"
+2019-10-21 15:24:56 - //let uriBase = "https://westeurope.api.cognitive.microsoft.com/vision/v2.0/analyze"
+2019-10-21 15:24:56 - type VisionApi = 
+2019-10-21 15:24:56 -   JsonProvider<"""{"tags":[{"name":"music","confidence":0.98865640163421631},{"name":"guitar","confidence":0.95694917440414429},{"name":"building material","confidence":0.41293439269065857},{"name":"lumber","confidence":0.29446199536323547},{"name":"bass","confidence":0.26204556226730347,"hint":"object"}],"description":{"tags":["road","building","outdoor","street","night","black","city","white","light","sitting","riding","man","side","empty","rain","corner","traffic","lit","hydrant","stop","board","parked","bus","tall"],"captions":[{"text":"a close up of an empty city street at night","confidence":0.7965622853462756}]},"requestId":"ad111816-5803-4176-a3a0-0aa59b517db6","metadata":{"width":604,"height":271,"format":"Jpeg"}}""">
+2019-10-21 15:24:59 - let getPictureDescription imageFilePath = 
+2019-10-21 15:24:59 -     let bytes = File.ReadAllBytes imageFilePath
+2019-10-21 15:24:59 -     let requestParameters = "visualFeatures=Tags,Description"
+2019-10-21 15:24:59 -     let res = 
+2019-10-21 15:24:59 -         Http.RequestString(uriBase + "?" + requestParameters, 
+2019-10-21 15:24:59 -                            headers = [ "Ocp-Apim-Subscription-Key", Subscription.subscriptionKey
+2019-10-21 15:24:59 -                                        ContentType Binary ],
+2019-10-21 15:24:59 -                            body = HttpRequestBody.BinaryUpload bytes)
+2019-10-21 15:24:59 -     let jsonObject = VisionApi.Parse res
+2019-10-21 15:24:59 -     
+2019-10-21 15:24:59 -     let description = jsonObject.Description.Captions.[0].Text
+2019-10-21 15:24:59 -     let tags = jsonObject.Tags |> Array.map (fun t -> t.Name, t.Confidence)
+2019-10-21 15:24:59 -     
+2019-10-21 15:24:59 -     printfn "%s\n------------------------------" description
+2019-10-21 15:24:59 -     tags |> Array.iter (fun (name, p) -> printfn "%s: %.3f" name p)
+2019-10-21 15:25:01 - getPictureDescription "img/guitar.jpg"
+2019-10-21 15:27:29 - getPictureDescription "img/monkey2.jpeg"
+2019-10-21 15:27:36 - getPictureDescription "img/monkey2giraffe.jpeg"
+2019-10-21 15:27:43 - getPictureDescription "img/monkey2elephant.jpeg"
+2019-10-21 15:28:01 - getPictureDescription "img/monkey2elephant.jpeg"
+2019-10-21 15:34:52 - getPictureDescription "img/office.jpg"
+2019-10-21 15:34:52 - Expression evaluation failed: Could not find file "/Users/egabasova/OneDrive - Dual Notion/Talks/2019-10-Data2day-Ludwigshafen/demos/deep-learning/img/office.jpg"
+2019-10-21 15:34:52 - FileNotFoundExceptionCould not find file "/Users/egabasova/OneDrive - Dual Notion/Talks/2019-10-Data2day-Ludwigshafen/demos/deep-learning/img/office.jpg"
+2019-10-21 15:34:52 -   at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <47b74980241a4d7898fb5dbf7819d2e5>:0 
+2019-10-21 15:34:52 -   at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share) [0x00000] in <47b74980241a4d7898fb5dbf7819d2e5>:0 
+2019-10-21 15:34:52 -   at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare)
+2019-10-21 15:34:52 -   at System.IO.File.OpenRead (System.String path) [0x00000] in <47b74980241a4d7898fb5dbf7819d2e5>:0 
+2019-10-21 15:34:52 -   at System.IO.File.ReadAllBytes (System.String path) [0x00000] in <47b74980241a4d7898fb5dbf7819d2e5>:0 
+2019-10-21 15:34:52 -   at FSI_0021.getPictureDescription (System.String imageFilePath) [0x00001] in <d9252d2189a84da5ab93f2f6adac8916>:0 
+2019-10-21 15:34:52 -   at <StartupCode$FSI_0032>.$FSI_0032.main@ () [0x00001] in <d9252d2189a84da5ab93f2f6adac8916>:0 
+2019-10-21 15:34:52 -   at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+2019-10-21 15:34:52 -   at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <47b74980241a4d7898fb5dbf7819d2e5>:0 
+2019-10-21 15:35:05 - getPictureDescription "img/office1.jpg"
+2019-10-21 15:35:14 - getPictureDescription "img/office1elephant.jpg"
+2019-10-21 15:36:24 - getPictureDescription "img/office1elephant.jpg"
+2019-10-21 15:38:56 - getPictureDescription "img/office1elephant2.jpg"
+2019-10-21 15:39:35 - getPictureDescription "img/office1elephant2.jpg"
+2019-10-21 15:40:08 - getPictureDescription "img/office1elephant.jpg"
+2019-10-22 17:17:16 - Microsoft (R) F# Interactive version 10.2.3 for F# 4.5
+2019-10-22 17:17:16 - Copyright (c) Microsoft Corporation. All Rights Reserved.
+2019-10-22 17:17:16 - For help type #help;;
+2019-10-22 17:17:16 - > val it :
+2019-10-22 17:17:16 -   ResizeArray<System.Type *
+2019-10-22 17:17:16 -               (obj ->
+2019-10-22 17:17:16 -                  seq<string *
+2019-10-22 17:17:16 -                      string> *
+2019-10-22 17:17:16 -                  string)>
+2019-10-22 17:17:16 - = seq []
+2019-10-22 17:17:16 - --> Added '/Users/egabasova/Downloads' to library include path
+2019-10-22 17:17:16 - --> Referenced '/Users/egabasova/Downloads/IfSharp.Kernel.dll' (file may be locked by F# Interactive process)
+2019-10-22 17:17:16 - --> Referenced '/Users/egabasova/Downloads/NetMQ.dll' (file may be locked by F# Interactive process)
+2019-10-22 17:17:19 - #load "Paket.fsx"
+2019-10-22 17:17:19 - Paket.Version [ "FSharp.Data", "3.0"]
+2019-10-22 17:17:19 - #load "Paket.Generated.Refs.fsx"
+2019-10-22 17:17:23 - Reporting 0 opened comms
+2019-10-22 17:17:23 - open System.IO  
+2019-10-22 17:17:23 - open FSharp.Data
+2019-10-22 17:17:23 - open FSharp.Data.HttpRequestHeaders
+2019-10-22 17:17:23 - open FSharp.Data.HttpContentTypes
+2019-10-22 17:17:23 -  
+2019-10-22 17:17:23 - #load "subscription.fs" // Load subscription key
+2019-10-22 17:17:23 - let uriBase = "https://westeurope.api.cognitive.microsoft.com/vision/v2.0/analyze"
+2019-10-22 17:17:23 - //let uriBase = "https://westeurope.api.cognitive.microsoft.com/vision/v2.0/analyze"
+2019-10-22 17:17:23 - type VisionApi = 
+2019-10-22 17:17:23 -   JsonProvider<"""{"tags":[{"name":"music","confidence":0.98865640163421631},{"name":"guitar","confidence":0.95694917440414429},{"name":"building material","confidence":0.41293439269065857},{"name":"lumber","confidence":0.29446199536323547},{"name":"bass","confidence":0.26204556226730347,"hint":"object"}],"description":{"tags":["road","building","outdoor","street","night","black","city","white","light","sitting","riding","man","side","empty","rain","corner","traffic","lit","hydrant","stop","board","parked","bus","tall"],"captions":[{"text":"a close up of an empty city street at night","confidence":0.7965622853462756}]},"requestId":"ad111816-5803-4176-a3a0-0aa59b517db6","metadata":{"width":604,"height":271,"format":"Jpeg"}}""">
+2019-10-22 17:17:52 - let getPictureDescription imageFilePath = 
+2019-10-22 17:17:52 -     let bytes = File.ReadAllBytes imageFilePath
+2019-10-22 17:17:52 -     let requestParameters = "visualFeatures=Tags,Description"
+2019-10-22 17:17:52 -     let res = 
+2019-10-22 17:17:52 -         Http.RequestString(uriBase + "?" + requestParameters, 
+2019-10-22 17:17:52 -                            headers = [ "Ocp-Apim-Subscription-Key", Subscription.subscriptionKey
+2019-10-22 17:17:52 -                                        ContentType Binary ],
+2019-10-22 17:17:52 -                            body = HttpRequestBody.BinaryUpload bytes)
+2019-10-22 17:17:52 -     let jsonObject = VisionApi.Parse res
+2019-10-22 17:17:52 -     
+2019-10-22 17:17:52 -     let description = jsonObject.Description.Captions.[0].Text
+2019-10-22 17:17:52 -     let tags = jsonObject.Tags |> Array.map (fun t -> t.Name, t.Confidence)
+2019-10-22 17:17:52 -     
+2019-10-22 17:17:52 -     printfn "%s\n------------------------------" description
+2019-10-22 17:17:52 -     tags |> Array.iter (fun (name, p) -> printfn "%s: %.3f" name p)
+2019-10-22 17:18:00 - getPictureDescription "img/guitar.jpg"
+2019-10-22 17:18:10 - getPictureDescription "img/monkey1.jpeg"  
+2019-10-22 17:18:26 - getPictureDescription "img/gmonkey2.jpeg"
+2019-10-22 17:18:36 - getPictureDescription "img/gmonkey1.jpeg" 
+2019-10-22 17:18:44 - getPictureDescription "img/ggmonkey2.jpeg"
+2019-10-22 17:19:01 - getPictureDescription "img/landscape1.jpg"
+2019-10-22 17:19:17 - getPictureDescription "img/monkey2elephant.jpeg"
+2019-10-22 17:20:48 - getPictureDescription "img/office1.jpg"
+2019-10-22 17:21:12 - getPictureDescription "img/office1elephant.jpg"
+2019-10-22 17:21:32 - getPictureDescription "img/monkey2elephant.jpeg"
+2019-10-22 17:21:40 - getPictureDescription "img/magritte.jpg"
+2019-10-23 08:00:54 - Reporting 0 opened comms
+2019-10-23 08:01:00 - open System.IO  
+2019-10-23 08:01:00 - open FSharp.Data
+2019-10-23 08:01:00 - open FSharp.Data.HttpRequestHeaders
+2019-10-23 08:01:00 - open FSharp.Data.HttpContentTypes
+2019-10-23 08:01:00 -  
+2019-10-23 08:01:00 - #load "subscription.fs" // Load subscription key
+2019-10-23 08:01:00 - let uriBase = "https://westeurope.api.cognitive.microsoft.com/vision/v2.0/analyze"
+2019-10-23 08:01:00 - //let uriBase = "https://westeurope.api.cognitive.microsoft.com/vision/v2.0/analyze"
+2019-10-23 08:01:00 - type VisionApi = 
+2019-10-23 08:01:00 -   JsonProvider<"""{"tags":[{"name":"music","confidence":0.98865640163421631},{"name":"guitar","confidence":0.95694917440414429},{"name":"building material","confidence":0.41293439269065857},{"name":"lumber","confidence":0.29446199536323547},{"name":"bass","confidence":0.26204556226730347,"hint":"object"}],"description":{"tags":["road","building","outdoor","street","night","black","city","white","light","sitting","riding","man","side","empty","rain","corner","traffic","lit","hydrant","stop","board","parked","bus","tall"],"captions":[{"text":"a close up of an empty city street at night","confidence":0.7965622853462756}]},"requestId":"ad111816-5803-4176-a3a0-0aa59b517db6","metadata":{"width":604,"height":271,"format":"Jpeg"}}""">
+2019-10-23 08:01:02 - let getPictureDescription imageFilePath = 
+2019-10-23 08:01:02 -     let bytes = File.ReadAllBytes imageFilePath
+2019-10-23 08:01:02 -     let requestParameters = "visualFeatures=Tags,Description"
+2019-10-23 08:01:02 -     let res = 
+2019-10-23 08:01:02 -         Http.RequestString(uriBase + "?" + requestParameters, 
+2019-10-23 08:01:02 -                            headers = [ "Ocp-Apim-Subscription-Key", Subscription.subscriptionKey
+2019-10-23 08:01:02 -                                        ContentType Binary ],
+2019-10-23 08:01:02 -                            body = HttpRequestBody.BinaryUpload bytes)
+2019-10-23 08:01:02 -     let jsonObject = VisionApi.Parse res
+2019-10-23 08:01:02 -     
+2019-10-23 08:01:02 -     let description = jsonObject.Description.Captions.[0].Text
+2019-10-23 08:01:02 -     let tags = jsonObject.Tags |> Array.map (fun t -> t.Name, t.Confidence)
+2019-10-23 08:01:02 -     
+2019-10-23 08:01:02 -     printfn "%s\n------------------------------" description
+2019-10-23 08:01:02 -     tags |> Array.iter (fun (name, p) -> printfn "%s: %.3f" name p)
+2019-10-23 08:01:06 - getPictureDescription "img/guitar.jpg"
+2019-10-23 08:01:13 - getPictureDescription "img/monkey1.jpeg"  
+2019-10-23 08:02:33 - getPictureDescription "img/smeal.png" 
+2019-10-23 08:02:47 - getPictureDescription "img/gmonkey2.jpeg"
+2019-10-23 08:02:54 - getPictureDescription "img/gmonkey1.jpeg" 
+2019-10-23 08:03:01 - getPictureDescription "img/ggmonkey2.jpeg"
+2019-10-23 08:03:15 - getPictureDescription "img/landscape1.jpg"
+2019-10-23 08:03:39 - getPictureDescription "img/office1.jpg"
+2019-10-23 08:03:58 - getPictureDescription "img/office1elephant.jpg"
+2019-10-23 08:04:07 - getPictureDescription "img/monkey2elephant.jpeg"
+2019-10-23 08:05:31 - getPictureDescription "img/monkey2elephant2.jpeg"
+2019-10-23 08:05:31 - Expression evaluation failed: Could not find file "/Users/egabasova/OneDrive - Dual Notion/Talks/2019-10-Data2day-Ludwigshafen/demos/deep-learning/img/monkey2elephant2.jpeg"
+2019-10-23 08:05:31 - FileNotFoundExceptionCould not find file "/Users/egabasova/OneDrive - Dual Notion/Talks/2019-10-Data2day-Ludwigshafen/demos/deep-learning/img/monkey2elephant2.jpeg"
+2019-10-23 08:05:31 -   at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <6e9b92f0d119424382ef180639777acb>:0 
+2019-10-23 08:05:31 -   at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share) [0x00000] in <6e9b92f0d119424382ef180639777acb>:0 
+2019-10-23 08:05:31 -   at (wrapper remoting-invoke-with-check) System.IO.FileStream:.ctor (string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare)
+2019-10-23 08:05:31 -   at System.IO.File.OpenRead (System.String path) [0x00000] in <6e9b92f0d119424382ef180639777acb>:0 
+2019-10-23 08:05:31 -   at System.IO.File.ReadAllBytes (System.String path) [0x00000] in <6e9b92f0d119424382ef180639777acb>:0 
+2019-10-23 08:05:31 -   at FSI_0037.getPictureDescription (System.String imageFilePath) [0x00000] in <4e6cffa993f0415c913d6f2d18336cd0>:0 
+2019-10-23 08:05:31 -   at <StartupCode$FSI_0058>.$FSI_0058.main@ () [0x00000] in <4e6cffa993f0415c913d6f2d18336cd0>:0 
+2019-10-23 08:05:31 -   at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&)
+2019-10-23 08:05:31 -   at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <6e9b92f0d119424382ef180639777acb>:0 
+2019-10-23 08:05:37 - getPictureDescription "img/monkey2elephant2.jpg"
+2019-10-23 08:07:23 - getPictureDescription "img/monkey2elephant2..jpg"
+2019-10-23 08:07:31 - getPictureDescription "img/monkey2elephant.jpg"
+2019-10-23 08:07:31 - Expression evaluation failed: Could not find file "/Users/egabasova/OneDrive - Dual Notion/Talks/2019-10-Data2day-Ludwigshafen/demos/deep-learning/img/monkey2elephant.jpg"
+2019-10-23 08:07:31 - FileNotFoundExceptionCould not find file "/Users/egabasova/OneDrive - Dual Notion/Talks/2019-10-Data2day-Ludwigshafen/demos/deep-learning/img/monkey2elephant.jpg"
+2019-10-23 08:07:31 -   at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <6e9b92f0d119424382ef180639777acb>:0 
+2019-10-23 08:07:31 -   at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share) [0x00000] in <6e9b92f0d119424382ef180639777acb>:0 
+2019-10-23 08:07:31 -   at (wrapper remoting-invoke-with-check) System.IO.FileStream:.ctor (string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare)
+2019-10-23 08:07:31 -   at System.IO.File.OpenRead (System.String path) [0x00000] in <6e9b92f0d119424382ef180639777acb>:0 
+2019-10-23 08:07:31 -   at System.IO.File.ReadAllBytes (System.String path) [0x00000] in <6e9b92f0d119424382ef180639777acb>:0 
+2019-10-23 08:07:31 -   at FSI_0037.getPictureDescription (System.String imageFilePath) [0x00000] in <4e6cffa993f0415c913d6f2d18336cd0>:0 
+2019-10-23 08:07:31 -   at <StartupCode$FSI_0063>.$FSI_0063.main@ () [0x00000] in <4e6cffa993f0415c913d6f2d18336cd0>:0 
+2019-10-23 08:07:31 -   at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&)
+2019-10-23 08:07:31 -   at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <6e9b92f0d119424382ef180639777acb>:0 
+2019-10-23 08:07:34 - getPictureDescription "img/monkey2elephant.jpeg"
+2019-10-23 08:07:55 - getPictureDescription "img/magritte.jpg"
+2019-10-23 08:14:27 - shutdown request
+2019-10-23 08:14:31 - Microsoft (R) F# Interactive version 10.2.3 for F# 4.5
+2019-10-23 08:14:31 - Copyright (c) Microsoft Corporation. All Rights Reserved.
+2019-10-23 08:14:31 - For help type #help;;
+2019-10-23 08:14:31 - > val it :
+2019-10-23 08:14:31 -   ResizeArray<System.Type *
+2019-10-23 08:14:31 -               (obj ->
+2019-10-23 08:14:31 -                  seq<string *
+2019-10-23 08:14:31 -                      string> *
+2019-10-23 08:14:31 -                  string)>
+2019-10-23 08:14:31 - = seq []
+2019-10-23 08:14:31 - --> Added '/Users/egabasova/Downloads' to library include path
+2019-10-23 08:14:31 - --> Referenced '/Users/egabasova/Downloads/IfSharp.Kernel.dll' (file may be locked by F# Interactive process)
+2019-10-23 08:14:31 - --> Referenced '/Users/egabasova/Downloads/NetMQ.dll' (file may be locked by F# Interactive process)
+2019-10-23 08:15:56 - Reporting 0 opened comms
+2019-10-23 08:15:57 - Reporting 0 opened comms
+2019-10-23 08:46:57 - Reporting 0 opened comms
+2019-10-23 09:31:33 - Reporting 0 opened comms
+2019-10-23 09:31:54 - open System.IO  
+2019-10-23 09:31:54 - open FSharp.Data
+2019-10-23 09:31:54 - open FSharp.Data.HttpRequestHeaders
+2019-10-23 09:31:54 - open FSharp.Data.HttpContentTypes
+2019-10-23 09:31:54 -  
+2019-10-23 09:31:54 - #load "subscription.fs" // Load subscription key
+2019-10-23 09:31:54 - let uriBase = "https://westeurope.api.cognitive.microsoft.com/vision/v2.0/analyze"
+2019-10-23 09:31:54 - //let uriBase = "https://westeurope.api.cognitive.microsoft.com/vision/v2.0/analyze"
+2019-10-23 09:31:54 - type VisionApi = 
+2019-10-23 09:31:54 -   JsonProvider<"""{"tags":[{"name":"music","confidence":0.98865640163421631},{"name":"guitar","confidence":0.95694917440414429},{"name":"building material","confidence":0.41293439269065857},{"name":"lumber","confidence":0.29446199536323547},{"name":"bass","confidence":0.26204556226730347,"hint":"object"}],"description":{"tags":["road","building","outdoor","street","night","black","city","white","light","sitting","riding","man","side","empty","rain","corner","traffic","lit","hydrant","stop","board","parked","bus","tall"],"captions":[{"text":"a close up of an empty city street at night","confidence":0.7965622853462756}]},"requestId":"ad111816-5803-4176-a3a0-0aa59b517db6","metadata":{"width":604,"height":271,"format":"Jpeg"}}""">
+2019-10-23 09:31:54 - The namespace 'HttpRequestHeaders' is not defined.
+2019-10-23 09:31:54 - The namespace 'HttpContentTypes' is not defined.
+2019-10-23 09:32:01 - #load "Paket.fsx"
+2019-10-23 09:32:01 - Paket.Version [ "FSharp.Data", "3.0"]
+2019-10-23 09:32:01 - #load "Paket.Generated.Refs.fsx"
+2019-10-23 09:32:12 - open System.IO  
+2019-10-23 09:32:12 - open FSharp.Data
+2019-10-23 09:32:12 - open FSharp.Data.HttpRequestHeaders
+2019-10-23 09:32:12 - open FSharp.Data.HttpContentTypes
+2019-10-23 09:32:12 -  
+2019-10-23 09:32:12 - #load "subscription.fs" // Load subscription key
+2019-10-23 09:32:12 - let uriBase = "https://westeurope.api.cognitive.microsoft.com/vision/v2.0/analyze"
+2019-10-23 09:32:12 - //let uriBase = "https://westeurope.api.cognitive.microsoft.com/vision/v2.0/analyze"
+2019-10-23 09:32:12 - type VisionApi = 
+2019-10-23 09:32:12 -   JsonProvider<"""{"tags":[{"name":"music","confidence":0.98865640163421631},{"name":"guitar","confidence":0.95694917440414429},{"name":"building material","confidence":0.41293439269065857},{"name":"lumber","confidence":0.29446199536323547},{"name":"bass","confidence":0.26204556226730347,"hint":"object"}],"description":{"tags":["road","building","outdoor","street","night","black","city","white","light","sitting","riding","man","side","empty","rain","corner","traffic","lit","hydrant","stop","board","parked","bus","tall"],"captions":[{"text":"a close up of an empty city street at night","confidence":0.7965622853462756}]},"requestId":"ad111816-5803-4176-a3a0-0aa59b517db6","metadata":{"width":604,"height":271,"format":"Jpeg"}}""">
+2019-10-23 09:32:31 - let getPictureDescription imageFilePath = 
+2019-10-23 09:32:31 -     let bytes = File.ReadAllBytes imageFilePath
+2019-10-23 09:32:31 -     let requestParameters = "visualFeatures=Tags,Description"
+2019-10-23 09:32:31 -     let res = 
+2019-10-23 09:32:31 -         Http.RequestString(uriBase + "?" + requestParameters, 
+2019-10-23 09:32:31 -                            headers = [ "Ocp-Apim-Subscription-Key", Subscription.subscriptionKey
+2019-10-23 09:32:31 -                                        ContentType Binary ],
+2019-10-23 09:32:31 -                            body = HttpRequestBody.BinaryUpload bytes)
+2019-10-23 09:32:31 -     let jsonObject = VisionApi.Parse res
+2019-10-23 09:32:31 -     
+2019-10-23 09:32:31 -     let description = jsonObject.Description.Captions.[0].Text
+2019-10-23 09:32:31 -     let tags = jsonObject.Tags |> Array.map (fun t -> t.Name, t.Confidence)
+2019-10-23 09:32:31 -     
+2019-10-23 09:32:31 -     printfn "%s\n------------------------------" description
+2019-10-23 09:32:31 -     tags |> Array.iter (fun (name, p) -> printfn "%s: %.3f" name p)
+2019-10-23 09:33:19 - getPictureDescription "img/guitar.jpg"
+2019-10-23 09:33:43 - getPictureDescription "img/monkey1.jpeg"  
+2019-10-23 09:34:20 - getPictureDescription "img/smeal.png" 
+2019-10-23 09:34:26 - getPictureDescription "img/smeal.png" 
+2019-10-23 09:35:13 - getPictureDescription "img/gmonkey2.jpeg"
+2019-10-23 09:35:23 - getPictureDescription "img/gmonkey1.jpeg" 
+2019-10-23 09:35:54 - getPictureDescription "img/ggmonkey2.jpeg"
+2019-10-23 09:36:29 - getPictureDescription "img/landscape1.jpg"
+2019-10-23 09:37:06 - getPictureDescription "img/office1.jpg"
+2019-10-23 09:37:23 - getPictureDescription "img/office1elephant.jpg"
+2019-10-23 09:38:10 - getPictureDescription "img/monkey2elephant.jpeg"
+2019-10-23 09:38:27 - getPictureDescription "img/magritte.jpg"
+2019-10-23 17:35:58 - shutdown request
+2019-10-24 08:30:04 - Microsoft (R) F# Interactive version 10.2.3 for F# 4.5
+2019-10-24 08:30:04 - Copyright (c) Microsoft Corporation. All Rights Reserved.
+2019-10-24 08:30:04 - For help type #help;;
+2019-10-24 08:30:04 - > val it :
+2019-10-24 08:30:04 -   ResizeArray<System.Type *
+2019-10-24 08:30:04 -               (obj ->
+2019-10-24 08:30:04 -                  seq<string *
+2019-10-24 08:30:04 -                      string> *
+2019-10-24 08:30:04 -                  string)>
+2019-10-24 08:30:04 - = seq []
+2019-10-24 08:30:04 - --> Added '/Users/egabasova/Downloads' to library include path
+2019-10-24 08:30:04 - --> Referenced '/Users/egabasova/Downloads/IfSharp.Kernel.dll' (file may be locked by F# Interactive process)
+2019-10-24 08:30:04 - --> Referenced '/Users/egabasova/Downloads/NetMQ.dll' (file may be locked by F# Interactive process)
+2019-10-24 08:30:04 - Reporting 0 opened comms
+2019-10-24 08:31:08 - shutdown request
+2019-10-24 08:31:11 - Microsoft (R) F# Interactive version 10.2.3 for F# 4.5
+2019-10-24 08:31:11 - Copyright (c) Microsoft Corporation. All Rights Reserved.
+2019-10-24 08:31:11 - For help type #help;;
+2019-10-24 08:31:11 - > val it :
+2019-10-24 08:31:11 -   ResizeArray<System.Type *
+2019-10-24 08:31:11 -               (obj ->
+2019-10-24 08:31:11 -                  seq<string *
+2019-10-24 08:31:11 -                      string> *
+2019-10-24 08:31:11 -                  string)>
+2019-10-24 08:31:11 - = seq []
+2019-10-24 08:31:11 - --> Added '/Users/egabasova/Downloads' to library include path
+2019-10-24 08:31:11 - --> Referenced '/Users/egabasova/Downloads/IfSharp.Kernel.dll' (file may be locked by F# Interactive process)
+2019-10-24 08:31:11 - --> Referenced '/Users/egabasova/Downloads/NetMQ.dll' (file may be locked by F# Interactive process)
+2019-10-24 08:32:21 - getPictureDescription "img/monkey2.jpg"
+2019-10-24 08:32:21 - The value or constructor 'getPictureDescription' is not defined. Maybe you want one of the following:
+2019-10-24 08:32:21 -    getPreprocessorIntellisense
+2019-10-24 08:32:35 - #load "Paket.fsx"
+2019-10-24 08:32:35 - Paket.Version [ "FSharp.Data", "3.0"]
+2019-10-24 08:32:35 - #load "Paket.Generated.Refs.fsx"
+2019-10-24 08:32:45 - open System.IO  
+2019-10-24 08:32:45 - open FSharp.Data
+2019-10-24 08:32:45 - open FSharp.Data.HttpRequestHeaders
+2019-10-24 08:32:45 - open FSharp.Data.HttpContentTypes
+2019-10-24 08:32:45 -  
+2019-10-24 08:32:45 - #load "subscription.fs" // Load subscription key
+2019-10-24 08:32:45 - let uriBase = "https://westeurope.api.cognitive.microsoft.com/vision/v2.0/analyze"
+2019-10-24 08:32:45 - //let uriBase = "https://westeurope.api.cognitive.microsoft.com/vision/v2.0/analyze"
+2019-10-24 08:32:45 - type VisionApi = 
+2019-10-24 08:32:45 -   JsonProvider<"""{"tags":[{"name":"music","confidence":0.98865640163421631},{"name":"guitar","confidence":0.95694917440414429},{"name":"building material","confidence":0.41293439269065857},{"name":"lumber","confidence":0.29446199536323547},{"name":"bass","confidence":0.26204556226730347,"hint":"object"}],"description":{"tags":["road","building","outdoor","street","night","black","city","white","light","sitting","riding","man","side","empty","rain","corner","traffic","lit","hydrant","stop","board","parked","bus","tall"],"captions":[{"text":"a close up of an empty city street at night","confidence":0.7965622853462756}]},"requestId":"ad111816-5803-4176-a3a0-0aa59b517db6","metadata":{"width":604,"height":271,"format":"Jpeg"}}""">
+2019-10-24 08:32:48 - let getPictureDescription imageFilePath = 
+2019-10-24 08:32:48 -     let bytes = File.ReadAllBytes imageFilePath
+2019-10-24 08:32:48 -     let requestParameters = "visualFeatures=Tags,Description"
+2019-10-24 08:32:48 -     let res = 
+2019-10-24 08:32:48 -         Http.RequestString(uriBase + "?" + requestParameters, 
+2019-10-24 08:32:48 -                            headers = [ "Ocp-Apim-Subscription-Key", Subscription.subscriptionKey
+2019-10-24 08:32:48 -                                        ContentType Binary ],
+2019-10-24 08:32:48 -                            body = HttpRequestBody.BinaryUpload bytes)
+2019-10-24 08:32:48 -     let jsonObject = VisionApi.Parse res
+2019-10-24 08:32:48 -     
+2019-10-24 08:32:48 -     let description = jsonObject.Description.Captions.[0].Text
+2019-10-24 08:32:48 -     let tags = jsonObject.Tags |> Array.map (fun t -> t.Name, t.Confidence)
+2019-10-24 08:32:48 -     
+2019-10-24 08:32:48 -     printfn "%s\n------------------------------" description
+2019-10-24 08:32:48 -     tags |> Array.iter (fun (name, p) -> printfn "%s: %.3f" name p)
+2019-10-24 08:32:50 - getPictureDescription "img/guitar.jpg"
+2019-10-24 08:33:03 - shutdown request
+2019-10-24 08:33:06 - Microsoft (R) F# Interactive version 10.2.3 for F# 4.5
+2019-10-24 08:33:06 - Copyright (c) Microsoft Corporation. All Rights Reserved.
+2019-10-24 08:33:06 - For help type #help;;
+2019-10-24 08:33:06 - > val it :
+2019-10-24 08:33:06 -   ResizeArray<System.Type *
+2019-10-24 08:33:06 -               (obj ->
+2019-10-24 08:33:06 -                  seq<string *
+2019-10-24 08:33:06 -                      string> *
+2019-10-24 08:33:06 -                  string)>
+2019-10-24 08:33:06 - = seq []
+2019-10-24 08:33:06 - --> Added '/Users/egabasova/Downloads' to library include path
+2019-10-24 08:33:06 - --> Referenced '/Users/egabasova/Downloads/IfSharp.Kernel.dll' (file may be locked by F# Interactive process)
+2019-10-24 08:33:06 - --> Referenced '/Users/egabasova/Downloads/NetMQ.dll' (file may be locked by F# Interactive process)
+2019-10-24 08:35:07 - shutdown request
+2019-10-25 15:15:05 - Microsoft (R) F# Interactive version 10.2.3 for F# 4.5
+2019-10-25 15:15:05 - Copyright (c) Microsoft Corporation. All Rights Reserved.
+2019-10-25 15:15:05 - For help type #help;;
+2019-10-25 15:15:05 - > val it :
+2019-10-25 15:15:05 -   ResizeArray<System.Type *
+2019-10-25 15:15:05 -               (obj ->
+2019-10-25 15:15:05 -                  seq<string *
+2019-10-25 15:15:05 -                      string> *
+2019-10-25 15:15:05 -                  string)>
+2019-10-25 15:15:05 - = seq []
+2019-10-25 15:15:05 - --> Added '/Users/egabasova/Downloads' to library include path
+2019-10-25 15:15:05 - --> Referenced '/Users/egabasova/Downloads/IfSharp.Kernel.dll' (file may be locked by F# Interactive process)
+2019-10-25 15:15:05 - --> Referenced '/Users/egabasova/Downloads/NetMQ.dll' (file may be locked by F# Interactive process)
+2019-10-25 15:15:07 - #load "Paket.fsx"
+2019-10-25 15:15:07 - Paket.Version [ "FSharp.Data", "3.0"]
+2019-10-25 15:15:07 - #load "Paket.Generated.Refs.fsx"
+2019-10-25 15:15:12 - Reporting 0 opened comms
+2019-10-25 15:15:41 - Reporting 0 opened comms
+2019-10-25 15:15:46 - shutdown request
+2019-10-25 15:15:49 - Microsoft (R) F# Interactive version 10.2.3 for F# 4.5
+2019-10-25 15:15:49 - Copyright (c) Microsoft Corporation. All Rights Reserved.
+2019-10-25 15:15:49 - For help type #help;;
+2019-10-25 15:15:49 - > val it :
+2019-10-25 15:15:49 -   ResizeArray<System.Type *
+2019-10-25 15:15:49 -               (obj ->
+2019-10-25 15:15:49 -                  seq<string *
+2019-10-25 15:15:49 -                      string> *
+2019-10-25 15:15:49 -                  string)>
+2019-10-25 15:15:49 - = seq []
+2019-10-25 15:15:49 - --> Added '/Users/egabasova/Downloads' to library include path
+2019-10-25 15:15:49 - --> Referenced '/Users/egabasova/Downloads/IfSharp.Kernel.dll' (file may be locked by F# Interactive process)
+2019-10-25 15:15:49 - --> Referenced '/Users/egabasova/Downloads/NetMQ.dll' (file may be locked by F# Interactive process)
+2019-10-25 16:04:53 - Reporting 0 opened comms
+2019-10-25 16:04:59 - #load "Paket.fsx"
+2019-10-25 16:04:59 - Paket.Version [ "FSharp.Data", "3.0"]
+2019-10-25 16:04:59 - #load "Paket.Generated.Refs.fsx"
+2019-10-25 16:05:06 - open System.IO  
+2019-10-25 16:05:06 - open FSharp.Data
+2019-10-25 16:05:06 - open FSharp.Data.HttpRequestHeaders
+2019-10-25 16:05:06 - open FSharp.Data.HttpContentTypes
+2019-10-25 16:05:06 -  
+2019-10-25 16:05:06 - #load "subscription.fs" // Load subscription key
+2019-10-25 16:05:06 - let uriBase = "https://westeurope.api.cognitive.microsoft.com/vision/v2.0/analyze"
+2019-10-25 16:05:06 - //let uriBase = "https://westeurope.api.cognitive.microsoft.com/vision/v2.0/analyze"
+2019-10-25 16:05:06 - type VisionApi = 
+2019-10-25 16:05:06 -   JsonProvider<"""{"tags":[{"name":"music","confidence":0.98865640163421631},{"name":"guitar","confidence":0.95694917440414429},{"name":"building material","confidence":0.41293439269065857},{"name":"lumber","confidence":0.29446199536323547},{"name":"bass","confidence":0.26204556226730347,"hint":"object"}],"description":{"tags":["road","building","outdoor","street","night","black","city","white","light","sitting","riding","man","side","empty","rain","corner","traffic","lit","hydrant","stop","board","parked","bus","tall"],"captions":[{"text":"a close up of an empty city street at night","confidence":0.7965622853462756}]},"requestId":"ad111816-5803-4176-a3a0-0aa59b517db6","metadata":{"width":604,"height":271,"format":"Jpeg"}}""">
+2019-10-25 16:06:04 - let getPictureDescription imageFilePath = 
+2019-10-25 16:06:04 -     let bytes = File.ReadAllBytes imageFilePath
+2019-10-25 16:06:04 -     let requestParameters = "visualFeatures=Tags,Description"
+2019-10-25 16:06:04 -     let res = 
+2019-10-25 16:06:04 -         Http.RequestString(uriBase + "?" + requestParameters, 
+2019-10-25 16:06:04 -                            headers = [ "Ocp-Apim-Subscription-Key", Subscription.subscriptionKey
+2019-10-25 16:06:04 -                                        ContentType Binary ],
+2019-10-25 16:06:04 -                            body = HttpRequestBody.BinaryUpload bytes)
+2019-10-25 16:06:04 -     let jsonObject = VisionApi.Parse res
+2019-10-25 16:06:04 -     
+2019-10-25 16:06:04 -     let description = jsonObject.Description.Captions.[0].Text
+2019-10-25 16:06:04 -     let tags = jsonObject.Tags |> Array.map (fun t -> t.Name, t.Confidence)
+2019-10-25 16:06:04 -     
+2019-10-25 16:06:04 -     printfn "%s\n------------------------------" description
+2019-10-25 16:06:04 -     tags |> Array.iter (fun (name, p) -> printfn "%s: %.3f" name p)
+2019-10-25 16:06:54 - getPictureDescription "img/guitar.jpg"
+2019-10-25 16:07:21 - getPictureDescription "img/monkey1.jpeg"  
+2019-10-25 16:07:46 - getPictureDescription "img/monkey2.jpg"
+2019-10-25 16:08:19 - getPictureDescription "img/smeal.png"   
+2019-10-25 16:09:13 - getPictureDescription "img/gmonkey2.jpeg"
+2019-10-25 16:09:22 - getPictureDescription "img/gmonkey1.jpeg" 
+2019-10-25 16:10:06 - getPictureDescription "img/ggmonkey2.jpeg"
+2019-10-25 16:10:58 - getPictureDescription "img/landscape1.jpg"
+2019-10-25 16:11:48 - getPictureDescription "img/office1.jpg"
+2019-10-25 16:12:06 - getPictureDescription "img/office1elephant.jpg"
+2019-10-25 16:12:47 - getPictureDescription "img/monkey2elephant.jpeg"
+2019-10-25 16:13:23 - getPictureDescription "img/magritte.jpg"
+2019-10-28 16:08:09 - shutdown request
+2019-10-28 17:06:37 - Microsoft (R) F# Interactive version 10.2.3 for F# 4.5
+2019-10-28 17:06:37 - Copyright (c) Microsoft Corporation. All Rights Reserved.
+2019-10-28 17:06:37 - For help type #help;;
+2019-10-28 17:06:37 - > val it :
+2019-10-28 17:06:37 -   ResizeArray<System.Type *
+2019-10-28 17:06:37 -               (obj ->
+2019-10-28 17:06:37 -                  seq<string *
+2019-10-28 17:06:37 -                      string> *
+2019-10-28 17:06:37 -                  string)>
+2019-10-28 17:06:37 - = seq []
+2019-10-28 17:06:37 - --> Added '/Users/egabasova/Downloads' to library include path
+2019-10-28 17:06:37 - --> Referenced '/Users/egabasova/Downloads/IfSharp.Kernel.dll' (file may be locked by F# Interactive process)
+2019-10-28 17:06:37 - --> Referenced '/Users/egabasova/Downloads/NetMQ.dll' (file may be locked by F# Interactive process)
+2019-10-28 17:06:40 - Reporting 0 opened comms
+2019-10-28 17:11:11 - shutdown request
